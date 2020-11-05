@@ -15,21 +15,21 @@ public class ColorChanger : MonoBehaviour
 
     private XRGrabInteractable grabInteractable = null;
 
-    private void Awake()
-    {
-        meshRenderer = GetComponent<MeshRenderer>();
-        grabInteractable = GetComponent<XRGrabInteractable>();
+    //private void Awake()
+    //{
+    //    meshRenderer = GetComponent<MeshRenderer>();
+    //    grabInteractable = GetComponent<XRGrabInteractable>();
 
-        grabInteractable.onActivate.AddListener(setPink);
-        grabInteractable.onDeactivate.AddListener(setPurple);
-    }
+    //    grabInteractable.onActivate.AddListener(setPink);
+    //    grabInteractable.onDeactivate.AddListener(setPurple);
+    //}
 
-    private void OnDestroy()
-    {
+    //private void OnDestroy()
+    //{
 
-        grabInteractable.onActivate.RemoveListener(SetPink);
-        grabInteractable.onDeactivate.RemoveListener(setPurple);
-    }
+    //    grabInteractable.onActivate.RemoveListener(SetPink);
+    //    grabInteractable.onDeactivate.RemoveListener(setPurple);
+    //}
 
     private void SetPink()
     {
