@@ -9,7 +9,11 @@ public class Selectable : MonoBehaviour
     // Start is called before the first frame update
     public void OnSelectThis(int level)
     {
-        overlayText.text = "selezionato " + level + "!";
+        if (overlayText != null)
+        {
+            overlayText.text = "selezionato " + level + "!";    
+        }
+        
         FindObjectOfType<LevLoad>().LoadLevel(level);
     }
 }

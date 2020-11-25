@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 public class LevLoad : MonoBehaviour
 {
 
     public Animator transition;
-    public float transitionTime = 2f;
+    [FormerlySerializedAs("transitionTime")] public float transitionDelay = 2f;
 
 
 
@@ -21,7 +22,7 @@ public class LevLoad : MonoBehaviour
         //play animation
         transition.SetTrigger("Start");
         //wait for it to end
-        yield return new WaitForSeconds(transitionTime);
+        yield return new WaitForSeconds(transitionDelay);
 
         //change scene
         SceneManager.LoadScene(levelIndex);
