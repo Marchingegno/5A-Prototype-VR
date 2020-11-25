@@ -5,15 +5,28 @@ using UnityEngine.UI;
 
 public class Selectable : MonoBehaviour
 {
-    public Text overlayText;
+
     // Start is called before the first frame update
-    public void OnSelectThis(int level)
+    public void OnSelectThis(int code)
     {
-        if (overlayText != null)
-        {
-            overlayText.text = "selezionato " + level + "!";    
-        }
+        SelectableCode selectableCode = (SelectableCode) code;
         
-        FindObjectOfType<LevLoad>().LoadLevel(level);
+        
+        
+        FindObjectOfType<GameController>().Handle(selectableCode);
+        
     }
+
+
 }
+/*
+public enum SelectableCode
+{
+    SCENARIO1_CORRECT,
+    SCENARIO1_WRONG,
+    SCENARIO2_CORRECT,
+    SCENARIO2_WRONG,
+    SCENARIO3_CORRECT,
+    SCENARIO3_WRONG
+}
+*/

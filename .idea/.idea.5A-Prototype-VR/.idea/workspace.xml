@@ -20,15 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4bf5b7e-fe0d-4e30-a110-57ea2993f477" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Crossfade/Crossfade.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Crossfade/Crossfade.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Crossfade/FadeOut.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Crossfade/FadeOut.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelLoader.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelLoader.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu principale.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu principale.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scenario1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scenario1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scenario1Deprecated.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scenario1Deprecated.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scenario2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scenario2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +36,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactables/XRSimpleInteractable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactables/XRSimpleInteractable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,8 +47,10 @@
         <option value="$PROJECT_DIR$/Assets/Metro.cs" />
         <option value="$PROJECT_DIR$/Assets/Erogatore.cs" />
         <option value="$PROJECT_DIR$/Assets/Selectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/MetroLogoCorrectSelectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       </list>
     </option>
   </component>
@@ -64,6 +63,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -99,6 +99,7 @@
       <workItem from="1605693050135" duration="902000" />
       <workItem from="1605693996145" duration="1944000" />
       <workItem from="1606037772555" duration="4068000" />
+      <workItem from="1606297890529" duration="4568000" />
     </task>
     <servers />
   </component>
@@ -121,5 +122,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2714" y="236" key="RiderGenerateDialog" timestamp="1606298241732">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2714" y="236" key="RiderGenerateDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606298241732" />
+    <state x="2381" y="165" key="SettingsEditor" timestamp="1606298735190">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="165" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606298735190" />
   </component>
 </project>

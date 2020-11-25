@@ -772,6 +772,7 @@
           <e p="ColorChanger.cs" t="Include" />
           <e p="Controls.cs" t="Include" />
           <e p="Erogatore.cs" t="Include" />
+          <e p="GameController.cs" t="Include" />
           <e p="LevLoad.cs" t="Include" />
           <e p="Metro.cs" t="Include" />
           <e p="Selectable.cs" t="Include" />
