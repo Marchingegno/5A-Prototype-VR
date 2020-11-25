@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu principale.unity
     guid: d2f93464434ea3841a84094827c755a5
   - enabled: 1
-    path: Assets/Scenes/Scenario1.unity
+    path: Assets/Scenes/Scenario1Deprecated.unity
     guid: 7bd0727ee84a4394aae15a2cbb883711
   - enabled: 1
     path: Assets/Scenes/Scenario2.unity
