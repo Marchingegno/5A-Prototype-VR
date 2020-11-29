@@ -21,11 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b4bf5b7e-fe0d-4e30-a110-57ea2993f477" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu principale.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu principale.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scenario1Deprecated.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scenario1Deprecated.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Essentials 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Essentials 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scenario2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scenario2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/MetroLogoCorrectSelectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/AvatarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialogues.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AvatarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialogues.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +104,8 @@
       <workItem from="1605693050135" duration="902000" />
       <workItem from="1605693996145" duration="1944000" />
       <workItem from="1606037772555" duration="4068000" />
-      <workItem from="1606297890529" duration="4568000" />
+      <workItem from="1606297890529" duration="7045000" />
+      <workItem from="1606641716903" duration="6396000" />
     </task>
     <servers />
   </component>
@@ -124,10 +130,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2714" y="236" key="RiderGenerateDialog" timestamp="1606298241732">
+    <state x="2698" y="461" width="727" height="318" key="#C#" timestamp="1606304682267">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2714" y="236" key="RiderGenerateDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606298241732" />
+    <state x="2698" y="461" width="727" height="318" key="#C#/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606304682267" />
+    <state x="2714" y="236" key="RiderGenerateDialog" timestamp="1606304418102">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2714" y="236" key="RiderGenerateDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606304418102" />
     <state x="2381" y="165" key="SettingsEditor" timestamp="1606298735190">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

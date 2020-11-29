@@ -769,8 +769,10 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AvatarController.cs" t="Include" />
           <e p="ColorChanger.cs" t="Include" />
           <e p="Controls.cs" t="Include" />
+          <e p="Dialogues.cs" t="Include" />
           <e p="Erogatore.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="LevLoad.cs" t="Include" />
