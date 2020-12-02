@@ -20,22 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4bf5b7e-fe0d-4e30-a110-57ea2993f477" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Essentials 1 Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Essentials 1 Variant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Essentials 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Essentials 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scenario1Deprecated.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scenario1Deprecated.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Essentials Standard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Essentials Standard.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dev/MenuDev.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dev/MenuDev.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dev/Scenario1LV1Dev.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dev/Scenario1LV1Dev.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scenario1Deprecated.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scenario1Deprecated.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scenario1LV1.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scenario1LV1.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scenario2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scenario2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controls.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +80,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../5A-Prototype-VR\VR-AUI.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\dakk\5A-Prototype-VR" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -121,7 +123,7 @@
       <workItem from="1606297890529" duration="7045000" />
       <workItem from="1606641716903" duration="6396000" />
       <workItem from="1606723783482" duration="4997000" />
-      <workItem from="1606901787201" duration="2044000" />
+      <workItem from="1606901787201" duration="4886000" />
     </task>
     <task id="LOCAL-00001" summary="Update from master">
       <created>1606724086355</created>

@@ -9,6 +9,8 @@ public class GameController : MonoBehaviour
 {
     [FormerlySerializedAs("overlayText")] public Text debugInGameConsole;
     [SerializeField] private AvatarController avatarController;
+    [SerializeField] private AudioClip[] sounds;
+    [SerializeField] private AudioSource source;
     public void Handle(SelectableCode code)
     {
         //TODO Serialize this
@@ -24,16 +26,19 @@ public class GameController : MonoBehaviour
         switch (code)
         {
             case SelectableCode.SCENARIO1_CORRECT:
+                PlayAudio(AudioName.POSITIVE_FEEDBACK);
                 levLoad.LoadLevel(0);
-                //levLoad.LoadLevel("MenuDev");
                 break;
             case SelectableCode.SCENARIO1_WRONG:
                 debugInGameConsole.text = "Scelta sbagliata! " + code;
+                PlayAudio(AudioName.NEGATIVE_FEEDBACK);
                 break;
             case SelectableCode.SCENARIO2_CORRECT:
+                PlayAudio(AudioName.POSITIVE_FEEDBACK);
                 levLoad.LoadLevel(0);
                 break;
             case SelectableCode.SCENARIO2_WRONG:
+                PlayAudio(AudioName.NEGATIVE_FEEDBACK);
                 debugInGameConsole.text = "Scelta sbagliata! " + code;
                 break;
             case SelectableCode.MAIN_LOAD1_L1:
@@ -45,7 +50,21 @@ public class GameController : MonoBehaviour
                 levLoad.LoadLevel(2);
                 break;
             case SelectableCode.SCENARIO1_LASTCORRECT:
+                PlayAudio(AudioName.POSITIVE_FEEDBACK);
                 levLoad.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
+                break;
+        }
+    }
+
+    private void PlayAudio(AudioName audioName)
+    {
+        switch (audioName)
+        {
+            case AudioName.POSITIVE_FEEDBACK:
+                source.PlayOneShot(sounds[0]);
+                break;
+            case AudioName.NEGATIVE_FEEDBACK:
+                source.PlayOneShot(sounds[1]);
                 break;
         }
     }
@@ -73,5 +92,15 @@ public enum SelectableCode
     SCENARIO3_PAYMENT,
     SCENARIO3_LASTCORRECT
 
+
+}
+
+public enum AudioName
+{
+    POSITIVE_FEEDBACK,
+    NEGATIVE_FEEDBACK,
+    NEW_TASK,
+    METRO_AMBIENT,
+    METRO_TRAIN_ARRIVE
 
 }

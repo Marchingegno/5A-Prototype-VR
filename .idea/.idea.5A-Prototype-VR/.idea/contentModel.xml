@@ -769,6 +769,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AudioPlayer.cs" t="Include" />
           <e p="AvatarController.cs" t="Include" />
           <e p="ColorChanger.cs" t="Include" />
           <e p="Controls.cs" t="Include" />
