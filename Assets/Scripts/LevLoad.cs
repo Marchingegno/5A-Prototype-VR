@@ -16,6 +16,11 @@ public class LevLoad : MonoBehaviour
     {
         StartCoroutine(LoadScene(levelIndex));
     }
+
+    public void LoadLevel(string levelName)
+    {
+        StartCoroutine(LoadScene(SceneManager.GetSceneByName(levelName).buildIndex));
+    }
     
     private IEnumerator LoadScene(int levelIndex)
     {

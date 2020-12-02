@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.XR.Interaction.Toolkit;
 
+[RequireComponent(typeof(XRSimpleInteractable))]
+[RequireComponent(typeof(BoxCollider))]
 public class Selectable : MonoBehaviour
 {
 

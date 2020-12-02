@@ -59,7 +59,7 @@ public class Controls : MonoBehaviour
         /*if(primary2DAxis != Vector2.zero)
         {
             Debug.Log("Pressed 2daxis");
-            overlayText.text += "Pressing 2daxis";
+            debugInGameConsole.text += "Pressing 2daxis";
             gameObject.GetComponent<Material>().color = Color.red;
         }*/
     }

@@ -1,20 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public Text overlayText;
+    [FormerlySerializedAs("overlayText")] public Text debugInGameConsole;
     [SerializeField] private AvatarController avatarController;
     public void Handle(SelectableCode code)
     {
         //TODO Serialize this
         LevLoad levLoad =FindObjectOfType<LevLoad>();
         
-        if (overlayText != null)
+        if (debugInGameConsole != null)
         {
-            overlayText.text = "Selezionato " + code + "!";    
+            debugInGameConsole.text = "Selezionato " + code + "!";    
         }
         
         avatarController.DisplayText(code);
@@ -23,23 +25,27 @@ public class GameController : MonoBehaviour
         {
             case SelectableCode.SCENARIO1_CORRECT:
                 levLoad.LoadLevel(0);
+                //levLoad.LoadLevel("MenuDev");
                 break;
             case SelectableCode.SCENARIO1_WRONG:
-                overlayText.text = "Scelta sbagliata! " + code;
+                debugInGameConsole.text = "Scelta sbagliata! " + code;
                 break;
             case SelectableCode.SCENARIO2_CORRECT:
                 levLoad.LoadLevel(0);
                 break;
             case SelectableCode.SCENARIO2_WRONG:
-                overlayText.text = "Scelta sbagliata! " + code;
+                debugInGameConsole.text = "Scelta sbagliata! " + code;
                 break;
             case SelectableCode.MAIN_LOAD1_L1:
-                overlayText.text = "Loading level 1 " + code;
+                debugInGameConsole.text = "Loading level 1 " + code;
                 levLoad.LoadLevel(1);
                 break;
             case SelectableCode.MAIN_LOAD2_L1:
-                overlayText.text = "Loading level 2 " + code;
+                debugInGameConsole.text = "Loading level 2 " + code;
                 levLoad.LoadLevel(2);
+                break;
+            case SelectableCode.SCENARIO1_LASTCORRECT:
+                levLoad.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
                 break;
         }
     }
