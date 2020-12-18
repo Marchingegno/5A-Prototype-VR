@@ -71,15 +71,15 @@ SpriteRenderer:
   m_SortingLayerID: 342967735
   m_SortingLayer: 1
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: b95b842b763b85f4da910f23cae89f2a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bf04cf0aa283b7c4b9c5c38d18cc6aac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 19.2, y: 14.4}
+  m_Size: {x: 19.199999, y: 15.374999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &712207602
@@ -92,7 +92,7 @@ Animator:
   m_GameObject: {fileID: 712207600}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b48225b810cd65e4ca79fa74458b645e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 143f1d83e4f63474f9efc036829b80ad, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -155,6 +155,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 440a766779a632c4aa4d4c8cd2641ac8, type: 3}
   - {fileID: 8300000, guid: 89855c90e212920489b42f0a9e7639a0, type: 3}
   source: {fileID: 7275395434809044224}
+  animator: {fileID: 712207602}
 --- !u!114 &22236740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -849,6 +850,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186802297100273080, guid: 4c6cc35b280d37a4096f874e2abd9ce5,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6cc35b280d37a4096f874e2abd9ce5, type: 3}

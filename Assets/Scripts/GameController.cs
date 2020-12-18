@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -11,6 +12,22 @@ public class GameController : MonoBehaviour
     [SerializeField] private AvatarController avatarController;
     [SerializeField] private AudioClip[] sounds;
     [SerializeField] private AudioSource source;
+    [SerializeField] private Animator animator;
+
+
+    private void Start()
+    {
+        if (SceneManager.GetActiveScene().buildIndex != 0)
+        {
+            PlayAudio(AudioName.NEW_TASK);
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            PlayAudio(AudioName.METRO_AMBIENT);
+        }
+    }
+
     public void Handle(SelectableCode code)
     {
         //TODO Serialize this
@@ -27,30 +44,37 @@ public class GameController : MonoBehaviour
         {
             case SelectableCode.SCENARIO1_CORRECT:
                 PlayAudio(AudioName.POSITIVE_FEEDBACK);
+                animator.SetTrigger("correct");
                 levLoad.LoadLevel(0);
                 break;
             case SelectableCode.SCENARIO1_WRONG:
                 debugInGameConsole.text = "Scelta sbagliata! " + code;
                 PlayAudio(AudioName.NEGATIVE_FEEDBACK);
+                animator.SetTrigger("wrong");
                 break;
             case SelectableCode.SCENARIO2_CORRECT:
                 PlayAudio(AudioName.POSITIVE_FEEDBACK);
+                animator.SetTrigger("correct");
                 levLoad.LoadLevel(0);
                 break;
             case SelectableCode.SCENARIO2_WRONG:
                 PlayAudio(AudioName.NEGATIVE_FEEDBACK);
+                animator.SetTrigger("wrong");
                 debugInGameConsole.text = "Scelta sbagliata! " + code;
                 break;
             case SelectableCode.MAIN_LOAD1_L1:
+                animator.SetTrigger("select");
                 debugInGameConsole.text = "Loading level 1 " + code;
                 levLoad.LoadLevel(1);
                 break;
             case SelectableCode.MAIN_LOAD2_L1:
+                animator.SetTrigger("select");
                 debugInGameConsole.text = "Loading level 2 " + code;
                 levLoad.LoadLevel(2);
                 break;
             case SelectableCode.SCENARIO1_LASTCORRECT:
                 PlayAudio(AudioName.POSITIVE_FEEDBACK);
+                animator.SetTrigger("correct");
                 levLoad.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
                 break;
         }
@@ -58,7 +82,10 @@ public class GameController : MonoBehaviour
 
     private void PlayAudio(AudioName audioName)
     {
-        switch (audioName)
+        source.PlayOneShot(sounds[(int)audioName]);
+        
+        /*
+         switch (audioName)
         {
             case AudioName.POSITIVE_FEEDBACK:
                 source.PlayOneShot(sounds[0]);
@@ -66,7 +93,15 @@ public class GameController : MonoBehaviour
             case AudioName.NEGATIVE_FEEDBACK:
                 source.PlayOneShot(sounds[1]);
                 break;
+            case AudioName.NEW_TASK:
+                source.PlayOneShot(sounds[2]);
+                break;
+            case AudioName.METRO_AMBIENT:
+                source.PlayOneShot(sounds[3]);
+                break;
+            case AudioName.METRO_TRAIN_ARRIVE
         }
+        */
     }
 }
 

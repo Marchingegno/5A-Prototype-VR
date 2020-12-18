@@ -20,166 +20,250 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4bf5b7e-fe0d-4e30-a110-57ea2993f477" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus Hands/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Editor Resources/Monitors.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Editor Resources/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Editor/Attributes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Editor/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Editor/Monitors.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Editor/PropertyDrawers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Editor/Utils.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Resources/Bluenoise64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Resources/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Runtime/Attributes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Runtime/Components.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Runtime/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Runtime/Utils.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Textures/LUTs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Textures/Lens Dirt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Textures/Spectral LUTs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Utilities/CustomMotionTexture/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Utilities/CustomMotionTexture/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Utilities/CustomMotionTexture/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/Utilities/CustomMotionTexture/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VR Controllers Models/Default Controllers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VR Controllers Models/Vive Controllers/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VR Controllers Models/Vive Controllers/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VR Controllers Models/Vive Controllers/Textures.meta" beforeDir="false" />
-    </list>
-    <list id="b5009a2d-7a89-44cb-8afa-df0bd8897cd2" name="Restore to previous version" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MenuDev 1.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MenuDev 1.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/AssistantLevelUp.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.100.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.101.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.101.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.14.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.17.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.18.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.19.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.20.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.21.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.22.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.23.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.24.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.25.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.26.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.27.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.28.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.28.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.29.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.30.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.31.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.32.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.33.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.33.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.34.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.35.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.35.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.36.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.37.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.37.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.38.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.39.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.40.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.41.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.41.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.42.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.42.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.43.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.43.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.44.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.44.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.45.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.45.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.46.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.46.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.47.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.47.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.48.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.49.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.49.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.50.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.51.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.51.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.52.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.52.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.53.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.53.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.54.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.54.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.55.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.55.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.56.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.56.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.57.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.58.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.58.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.59.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.59.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.60.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.61.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.61.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.62.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.62.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.63.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.63.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.64.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.65.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.65.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.66.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.66.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.67.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.67.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.68.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.68.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.69.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.69.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.70.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.70.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.71.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.71.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.72.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.73.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.73.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.74.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.74.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.75.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.75.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.76.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.77.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.77.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.78.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.78.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.79.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.79.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.80.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.80.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.81.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.81.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.82.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.82.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.83.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.83.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.84.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.85.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.85.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.86.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.86.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.87.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.87.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.88.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.88.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.89.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.89.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.90.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.90.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.91.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.91.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.92.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.92.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.93.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.93.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.94.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.94.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.95.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.95.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.96.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.97.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.97.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.98.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.98.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.99.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.99.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animations.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animations.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Button (1).controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Button (1).controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ButtonAnimName.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ButtonAnimName.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle animation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle animation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.100.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.101.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.17.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.18.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.19.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.20.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.21.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.22.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.23.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.24.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.25.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.26.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.27.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.28.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.29.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.30.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.31.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.32.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.33.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.34.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.35.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.36.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.37.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.38.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.39.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.40.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.41.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.42.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.43.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.44.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.45.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.46.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.47.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.48.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.49.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.51.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.52.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.53.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.54.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.55.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.56.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.57.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.58.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.59.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.60.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.61.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.62.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.63.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.64.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.65.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.66.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.67.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.68.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.69.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.70.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.71.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.72.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.73.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.74.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.75.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.76.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.77.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.77.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.78.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.79.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.80.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.81.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.82.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.83.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.84.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.85.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.85.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.86.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.87.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.88.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.89.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.89.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.90.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.91.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.92.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.92.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.93.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.93.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.94.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.94.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.95.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.95.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.96.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.97.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.97.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.98.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.98.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.99.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnim/Sprites/AssistantKeyshot.99.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnimationSprite.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/IdleAssistantAnimationSprite.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/virtualASsistantSprite.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/virtualASsistantSprite.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/virtualAssistant_happy.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/virtualAssistant_happy.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Essentials Standard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Essentials Standard.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuDev 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuDev 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/AssistantCorrect.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/AssistantLevelUp.meta" beforeDir="false" />
     </list>
+    <list id="b5009a2d-7a89-44cb-8afa-df0bd8897cd2" name="Restore to previous version" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/5A-Prototype-VR/Assets/Scenes/MenuDev 1.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/5A-Prototype-VR/Assets/Models/Assistant/virtualAssistant_happy.fbx.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/5A-Prototype-VR/Assets/Models/Assistant/virtualAssistant_happy.fbx.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactables/XRSimpleInteractable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/5A-Prototype-VR/Assets/Scenes/MenuDev 1.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -257,7 +341,9 @@
       <workItem from="1606641716903" duration="6396000" />
       <workItem from="1606723783482" duration="4997000" />
       <workItem from="1606901787201" duration="4886000" />
-      <workItem from="1608284424026" duration="1306000" />
+      <workItem from="1608284424026" duration="1947000" />
+      <workItem from="1608292634298" duration="1105000" />
+      <workItem from="1608294686658" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary="Update from master">
       <created>1606724086355</created>
@@ -266,7 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606724086355</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Restore to previous state 2">
+      <created>1608286974543</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608286974543</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Restore to previous state 3">
+      <created>1608286982915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608286982915</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +389,10 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Update from master" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update from master" />
+    <MESSAGE value="Restore to previous state" />
+    <MESSAGE value="Restore to previous state 2" />
+    <MESSAGE value="Restore to previous state 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restore to previous state 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2698" y="461" width="727" height="318" key="#C#" timestamp="1606304682267">
@@ -321,18 +424,19 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="165" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606298735190" />
-    <state x="797" y="351" key="VCS.ChangelistChooser" timestamp="1608285304810">
+    <state x="797" y="351" key="VCS.ChangelistChooser" timestamp="1608293423239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2727" y="433" key="VCS.ChangelistChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606725697049" />
-    <state x="797" y="351" key="VCS.ChangelistChooser/0.0.1536.824/1920.164.1360.728@0.0.1536.824" timestamp="1608285304810" />
+    <state x="797" y="351" key="VCS.ChangelistChooser/0.0.1536.824/1920.164.1360.728@0.0.1536.824" timestamp="1608293423239" />
     <state x="2443" y="279" key="Vcs.Multiple.Commit.Info.Dialog.Key" timestamp="1606723909721">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2443" y="279" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606723909721" />
-    <state x="2472" y="240" key="Vcs.Push.Dialog.v2" timestamp="1606724094465">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="442" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608287071742">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2472" y="240" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606724094465" />
+    <state x="442" y="190" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.164.1360.728@0.0.1536.824" timestamp="1608287071742" />
   </component>
 </project>
