@@ -270,96 +270,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1588550302305488021, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: bf04cf0aa283b7c4b9c5c38d18cc6aac,
-        type: 3}
-    - target: {fileID: 1588550302305488021, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 15.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1588550302305488021, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1588550302305488023, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.0072665717
-      objectReference: {fileID: 0}
-    - target: {fileID: 1588550302305488023, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.99904263
-      objectReference: {fileID: 0}
-    - target: {fileID: 1588550302305488023, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.04301416
-      objectReference: {fileID: 0}
-    - target: {fileID: 1588550302305488023, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0033080578
-      objectReference: {fileID: 0}
-    - target: {fileID: 1588550302305488023, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1356.0015
-      objectReference: {fileID: 0}
-    - target: {fileID: 1588550302305488023, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -208.00034
-      objectReference: {fileID: 0}
-    - target: {fileID: 1588550302305488023, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -179.656
-      objectReference: {fileID: 0}
-    - target: {fileID: 1588550302305488023, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -4.933
-      objectReference: {fileID: 0}
-    - target: {fileID: 1588550302305488023, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.81900007
-      objectReference: {fileID: 0}
     - target: {fileID: 2698722423787652066, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
         type: 3}
       propertyPath: m_Name
       value: EssentialsMainMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 7574203741818303427, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0.745283
-      objectReference: {fileID: 0}
-    - target: {fileID: 7574203741818303427, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0.59376943
-      objectReference: {fileID: 0}
-    - target: {fileID: 7574203741818303427, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7574203741818303427, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_BackGroundColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7574203741818303427, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
-        type: 3}
-      propertyPath: m_ClearFlags
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8626fbb217ff45d4e84c3f9156bbb5c4, type: 3}
@@ -481,7 +395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &212048639
 Transform:
   m_ObjectHideFlags: 0
@@ -540,7 +454,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.48, y: 3.6601274}
+  m_Size: {x: 3.54, y: 3.5601237}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -644,7 +558,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 22
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1556,7 +1470,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.48, y: 3.6601274}
+  m_Size: {x: 3.5800002, y: 3.5601237}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1660,7 +1574,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
+          m_IntArgument: 23
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2157,6 +2071,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1038265152}
   - component: {fileID: 1038265153}
+  - component: {fileID: 1038265157}
+  - component: {fileID: 1038265156}
+  - component: {fileID: 1038265155}
+  - component: {fileID: 1038265154}
   m_Layer: 0
   m_Name: LV1.3
   m_TagString: Untagged
@@ -2229,6 +2147,100 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1038265154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038265151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b98ff8cf9a34745b82c48ab84f6777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1038265155
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038265151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8528786, y: 2.3781528, z: 2.1887093}
+  m_Center: {x: -0.4264393, y: 0.39019775, z: -0.5943546}
+--- !u!114 &1038265156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038265151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 1395166450}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_OnFirstHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1038265154}
+        m_MethodName: OnSelectThis
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 19
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_OnSelectExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CustomReticle: {fileID: 0}
+--- !u!54 &1038265157
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038265151}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1063137857
 GameObject:
   m_ObjectHideFlags: 0
@@ -2617,7 +2629,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
+          m_IntArgument: 20
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3441,7 +3453,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
+          m_IntArgument: 18
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3706,7 +3718,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.48, y: 3.6601274}
+  m_Size: {x: 3.57, y: 3.6601274}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4086,6 +4098,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1798586330}
   - component: {fileID: 1798586331}
+  - component: {fileID: 1798586335}
+  - component: {fileID: 1798586334}
+  - component: {fileID: 1798586333}
+  - component: {fileID: 1798586332}
   m_Layer: 0
   m_Name: LV2.3
   m_TagString: Untagged
@@ -4157,6 +4173,100 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1798586332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798586329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b98ff8cf9a34745b82c48ab84f6777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1798586333
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798586329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.81, y: 2.44, z: 1.22}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1798586334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798586329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 1395166450}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_OnFirstHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1798586332}
+        m_MethodName: OnSelectThis
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 21
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_OnSelectExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CustomReticle: {fileID: 0}
+--- !u!54 &1798586335
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798586329}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1803297515
 GameObject:
   m_ObjectHideFlags: 0
@@ -4454,7 +4564,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

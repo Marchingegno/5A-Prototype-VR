@@ -11,8 +11,8 @@ public class Dialogues : MonoBehaviour
     {
         dialogues.Add(SelectableCode.MAINMENU_START, "Ciao! Sei pronto per questa avventura?\nSeleziona il livello che vuoi giocare.");
         
-        dialogues.Add(SelectableCode.MAIN_LOAD1_L1, "Andiamo alla fermata della metro!");
-        dialogues.Add(SelectableCode.MAIN_LOAD2_L1, "Entriamo dentro la metro!");
+        dialogues.Add(SelectableCode.LOAD1_1, "Andiamo alla fermata della metro!");
+        dialogues.Add(SelectableCode.LOAD2_1, "Entriamo dentro la metro!");
         dialogues.Add(SelectableCode.SCENARIO1_START, "Seleziona il logo M della metro rossa!");
         dialogues.Add(SelectableCode.SCENARIO1_CORRECT, "Bravo! Hai fatto la scelta corretta.\n" +
                                                           "Passiamo al prossimo livello.");

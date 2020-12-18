@@ -13,10 +13,13 @@ public class GameController : MonoBehaviour
     [SerializeField] private AudioClip[] sounds;
     [SerializeField] private AudioSource source;
     [SerializeField] private Animator animator;
+    private DataContainer dataContainer;
 
 
     private void Start()
     {
+        dataContainer = DataContainer.GetInstance();
+        
         if (SceneManager.GetActiveScene().buildIndex != 0)
         {
             PlayAudio(AudioName.NEW_TASK);
@@ -62,15 +65,15 @@ public class GameController : MonoBehaviour
                 animator.SetTrigger("wrong");
                 debugInGameConsole.text = "Scelta sbagliata! " + code;
                 break;
-            case SelectableCode.MAIN_LOAD1_L1:
+            case SelectableCode.LOAD1_1:
                 animator.SetTrigger("select");
-                debugInGameConsole.text = "Loading level 1 " + code;
+                dataContainer.CompleteLevel(0);
                 levLoad.LoadLevel(1);
                 break;
-            case SelectableCode.MAIN_LOAD2_L1:
+            case SelectableCode.LOAD2_1:
                 animator.SetTrigger("select");
-                debugInGameConsole.text = "Loading level 2 " + code;
-                levLoad.LoadLevel(2);
+                dataContainer.CompleteLevel(3);
+                levLoad.LoadLevel(4);
                 break;
             case SelectableCode.SCENARIO1_LASTCORRECT:
                 PlayAudio(AudioName.POSITIVE_FEEDBACK);
@@ -113,8 +116,8 @@ public enum SelectableCode
     SCENARIO2_WRONG,
     SCENARIO3_CORRECT,
     SCENARIO3_WRONG,       //5
-    MAIN_LOAD1_L1,
-    MAIN_LOAD2_L1,
+    LOAD1_1,
+    LOAD2_1,
     MAINMENU_START,
     SCENARIO1_START,
     SCENARIO1_LASTCORRECT, //10
@@ -125,7 +128,14 @@ public enum SelectableCode
     SCENARIO3_START_LV1,    //15
     SCENARIO3_START_LV2,
     SCENARIO3_PAYMENT,
-    SCENARIO3_LASTCORRECT
+    SCENARIO3_LASTCORRECT,
+    LOAD1_2,
+    LOAD1_3,
+    LOAD2_2,                //20
+    LOAD2_3,
+    LOAD3_1,
+    LOAD3_2
+    
 
 
 }
