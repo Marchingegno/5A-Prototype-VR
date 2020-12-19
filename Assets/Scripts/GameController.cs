@@ -22,6 +22,12 @@ public class GameController : MonoBehaviour
         dataContainer = DataContainer.GetInstance();
         levLoad = FindObjectOfType<LevLoad>();
         int currentScene = SceneManager.GetActiveScene().buildIndex;
+
+        //If main menu
+        if (currentScene == 0)
+        {
+            avatarController.DisplayText(MenuInteractionCode.START);
+        }
         
         //If it is not main manu, play new task.
         if (currentScene != 0)
@@ -175,6 +181,7 @@ public enum InteractionCode
 
 public enum MenuInteractionCode
 {
+    START   = 00,
     LOAD1_1 = 11,
     LOAD1_2 = 12,
     LOAD1_3 = 13,

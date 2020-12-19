@@ -13,17 +13,18 @@ public class AvatarController : MonoBehaviour
 	{
 		avatarText.text = "Benvenuto! Scegli il livello da giocare.";
 	}
+	
 
 	public void DisplayText(InteractionCode code)
 	{
-		string textToDisplay = Dialogues.GetPhrase(code);
+		string textToDisplay = DialoguesAndSounds.GetPhrase(code);
 		
 		avatarText.text = " " + textToDisplay;
 	}
 
 	public void DisplayText(MenuInteractionCode code)
 	{
-		string textToDisplay = Dialogues.GetPhrase(code);
+		string textToDisplay = DialoguesAndSounds.GetPhrase(code);
 		avatarText.text = " " + textToDisplay;
 	}
 	

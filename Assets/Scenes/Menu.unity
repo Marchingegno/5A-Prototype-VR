@@ -275,6 +275,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EssentialsMainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 2698722423787652066, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8569994501204694262, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8569994501204694262, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8569994501204694262, guid: 8626fbb217ff45d4e84c3f9156bbb5c4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8626fbb217ff45d4e84c3f9156bbb5c4, type: 3}
 --- !u!1 &129033683

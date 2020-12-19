@@ -28,7 +28,6 @@
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>MonoBleedingEdge</Path>
-      <Path>Temp</Path>
       <Path>VR-AUI_Data</Path>
       <Path>obj</Path>
     </explicitExcludes>

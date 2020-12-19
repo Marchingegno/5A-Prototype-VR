@@ -103,6 +103,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EssentialsMainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 7628310970531088412, guid: 4b81cf043b905994fab8ac70ec0b4c9b,
+        type: 3}
+      propertyPath: menuAudioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9157876573715747749, guid: 4b81cf043b905994fab8ac70ec0b4c9b,
         type: 3}
       propertyPath: m_ClearFlags
