@@ -1,0 +1,350 @@
+fileFormatVersion: 2
+guid: c583eb488d796db41aaa413e92716499
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8152509486911407337
+    second: TipologiaBigliettoPulsanti_0
+  - first:
+      213: 1481662034071573948
+    second: TipologiaBigliettoPulsanti_1
+  - first:
+      213: 194892905269847101
+    second: TipologiaBigliettoPulsanti_2
+  - first:
+      213: -5983793804650664322
+    second: TipologiaBigliettoPulsanti_3
+  - first:
+      213: 4021083276767898062
+    second: TipologiaBigliettoPulsanti_4
+  - first:
+      213: 6172941402860845521
+    second: TipologiaBigliettoPulsanti_5
+  - first:
+      213: 3120303282274185997
+    second: TipologiaBigliettoPulsanti_6
+  - first:
+      213: 7105631685997036968
+    second: TipologiaBigliettoPulsanti_7
+  - first:
+      213: -3443036569733115825
+    second: TipologiaBigliettoPulsanti_8
+  - first:
+      213: 2163606118088220420
+    second: TipologiaBigliettoPulsanti_9
+  - first:
+      213: 1975418255270437334
+    second: TipologiaBigliettoPulsanti_10
+  - first:
+      213: 2256848456005674882
+    second: TipologiaBigliettoPulsanti_11
+  - first:
+      213: -53834995830026806
+    second: TipologiaBigliettoPulsanti_12
+  - first:
+      213: 7237130719220575697
+    second: TipologiaBigliettoPulsanti_13
+  - first:
+      213: -6596632555609125556
+    second: TipologiaBigliettoPulsanti_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TipologiaBigliettoPulsanti_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4548
+        width: 4474
+        height: 1251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bb4a4c0d77cde80800000000000000
+      internalID: -8152509486911407337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipologiaBigliettoPulsanti_2
+      rect:
+        serializedVersion: 2
+        x: 6408
+        y: 4548
+        width: 4483
+        height: 1251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d346ad3901664b200800000000000000
+      internalID: 194892905269847101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipologiaBigliettoPulsanti_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3029
+        width: 4474
+        height: 1260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9a3048fe1cdc730800000000000000
+      internalID: 4021083276767898062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipologiaBigliettoPulsanti_5
+      rect:
+        serializedVersion: 2
+        x: 4679
+        y: 3029
+        width: 1253
+        height: 1259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d972d01081baa550800000000000000
+      internalID: 6172941402860845521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipologiaBigliettoPulsanti_6
+      rect:
+        serializedVersion: 2
+        x: 6408
+        y: 2999
+        width: 4483
+        height: 1254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03307b9d4b8d4b20800000000000000
+      internalID: 3120303282274185997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipologiaBigliettoPulsanti_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1510
+        width: 5935
+        height: 1260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40d0685b70e730d0800000000000000
+      internalID: -3443036569733115825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipologiaBigliettoPulsanti_9
+      rect:
+        serializedVersion: 2
+        x: 6408
+        y: 1510
+        width: 4483
+        height: 1260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f92861d4ca60e10800000000000000
+      internalID: 2163606118088220420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipologiaBigliettoPulsanti_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4474
+        height: 1251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2876b14a6bfe15f10800000000000000
+      internalID: 2256848456005674882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipologiaBigliettoPulsanti_13
+      rect:
+        serializedVersion: 2
+        x: 6408
+        y: 0
+        width: 4483
+        height: 1251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dda5309b047f6460800000000000000
+      internalID: 7237130719220575697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2b01ff25e22446748b399b0d5d729929
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
