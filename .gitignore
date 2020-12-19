@@ -66,3 +66,6 @@ crashlytics-build.properties
 /.idea/.idea.5A-Prototype-VR.dir/.idea/contentModel.xml
 /.idea/.idea.5A-Prototype-VR.dir/.idea/modules.xml
 /.idea/.idea.5A-Prototype-VR.dir/.idea/codeStyles/codeStyleConfig.xml
+/.idea/*
+/.idea
+/.idea/
