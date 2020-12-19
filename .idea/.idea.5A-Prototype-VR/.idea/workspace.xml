@@ -20,19 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4bf5b7e-fe0d-4e30-a110-57ea2993f477" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Assistant/AssistantAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Assistant/AssistantAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Assistant/AssistantCorrect.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Assistant/AssistantCorrect.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Assistant/AssistantIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Assistant/AssistantIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Assistant/AssistantLevelUp.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Assistant/AssistantLevelUp.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Assistant/AssistantWrong.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Assistant/AssistantWrong.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EssentialsMainMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EssentialsMainMenu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dev/Scenario1LV1Dev.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dev/Scenario1LV1Dev.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuDev 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuDev 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogues.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogues.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <list id="b5009a2d-7a89-44cb-8afa-df0bd8897cd2" name="Restore to previous version" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +38,15 @@
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/5A-Prototype-VR/Assets/Textures/Menu/Pulsanti3.png.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/5A-Prototype-VR/Assets/Scenes/MenuDev 1.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/5A-Prototype-VR/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/5A-Prototype-VR/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/5A-Prototype-VR/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/5A-Prototype-VR/Assets/Scripts/Dialogues.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/5A-Prototype-VR/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactables/XRSimpleInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DataContainer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/5A-Prototype-VR/Assets/Scenes/Dev/Scenario1LV1Dev.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -138,6 +128,7 @@
       <workItem from="1608284424026" duration="1947000" />
       <workItem from="1608292634298" duration="1105000" />
       <workItem from="1608294686658" duration="7426000" />
+      <workItem from="1608321829466" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="Update from master">
       <created>1606724086355</created>
@@ -174,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608297199699</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add back animator and animations">
+      <created>1608321935869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608321935869</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,18 +200,19 @@
     <MESSAGE value="Restore to previous state 3" />
     <MESSAGE value="Restore to previous state 4" />
     <MESSAGE value="Restore to previous state 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restore to previous state 5" />
+    <MESSAGE value="Add back animator and animations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add back animator and animations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2698" y="461" width="727" height="318" key="#C#" timestamp="1606304682267">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2698" y="461" width="727" height="318" key="#C#/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606304682267" />
-    <state x="74" y="73" width="1389" height="679" key="DiffContextDialog" timestamp="1608236165809">
+    <state x="74" y="73" width="1389" height="679" key="DiffContextDialog" timestamp="1608321962941">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2012" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606727781306" />
-    <state x="74" y="73" width="1389" height="679" key="DiffContextDialog/0.0.1536.824/1920.164.1360.728@0.0.1536.824" timestamp="1608236165809" />
+    <state x="74" y="73" width="1389" height="679" key="DiffContextDialog/0.0.1536.824/1920.164.1360.728@0.0.1536.824" timestamp="1608321962941" />
     <state x="349" y="155" key="IDE.errors.dialog" timestamp="1608297214248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -248,11 +247,11 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2443" y="279" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606723909721" />
-    <state x="2311" y="332" key="Vcs.Push.Dialog.v2" timestamp="1608303424678">
-      <screen x="1920" y="164" width="1360" height="728" />
+    <state x="442" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608321964173">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2472" y="240" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606724094465" />
-    <state x="442" y="190" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.164.1360.728@0.0.1536.824" timestamp="1608297205858" />
+    <state x="442" y="190" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.164.1360.728@0.0.1536.824" timestamp="1608321964173" />
     <state x="2311" y="332" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.164.1360.728@1920.164.1360.728" timestamp="1608303424678" />
   </component>
 </project>
