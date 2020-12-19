@@ -20,13 +20,22 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Dev" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:DevMarchingegno" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4bf5b7e-fe0d-4e30-a110-57ea2993f477" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.5A-Prototype-VR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EssentialsMainMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EssentialsMainMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AvatarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AvatarController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogues.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogues.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <list id="b5009a2d-7a89-44cb-8afa-df0bd8897cd2" name="Restore to previous version" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,19 +46,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Dev" />
+        <entry key="$PROJECT_DIR$" value="Dev2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/5A-Prototype-VR/Assets/Scenes/Menu.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactables/XRSimpleInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DataContainer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/5A-Prototype-VR/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,11 +68,11 @@
         <option value="$PROJECT_DIR$/Assets/MetroLogoCorrectSelectable.cs" />
         <option value="$PROJECT_DIR$/Assets/AvatarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Dialogues.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AvatarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Scenario1Deprecated.unity" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/DataContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Selectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AvatarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dialogues.cs" />
       </list>
@@ -132,7 +139,9 @@
       <workItem from="1608292634298" duration="1105000" />
       <workItem from="1608294686658" duration="7426000" />
       <workItem from="1608321829466" duration="724000" />
-      <workItem from="1608370263384" duration="2101000" />
+      <workItem from="1608370263384" duration="4226000" />
+      <workItem from="1608375258974" duration="372000" />
+      <workItem from="1608376888477" duration="7287000" />
     </task>
     <task id="LOCAL-00001" summary="Update from master">
       <created>1606724086355</created>
@@ -190,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608372359271</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update .gitignore">
+      <created>1608373105414</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608373105414</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +225,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Dev" />
+                        <option value="DevMarchingegno" />
                       </list>
                     </value>
                   </entry>
@@ -233,7 +249,8 @@
     <MESSAGE value="Add back animator and animations" />
     <MESSAGE value="Add back main menu, moved scenes" />
     <MESSAGE value="Change build settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change build settings" />
+    <MESSAGE value="Update .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update .gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2698" y="461" width="727" height="318" key="#C#" timestamp="1606304682267">

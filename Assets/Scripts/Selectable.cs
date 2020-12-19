@@ -12,18 +12,18 @@ public class Selectable : MonoBehaviour
     // Start is called before the first frame update
     public void OnSelectThis(int code)
     {
-        SelectableCode selectableCode = (SelectableCode) code;
-        
-        
-        
-        FindObjectOfType<GameController>().Handle(selectableCode);
-        
+        FindObjectOfType<GameController>().Handle((InteractionCode) code);
+    }
+
+    public void OnSelectThisMenu(int code)
+    {
+        FindObjectOfType<GameController>().MenuHandle((MenuInteractionCode) code);
     }
 
 
 }
 /*
-public enum SelectableCode
+public enum InteractionCode
 {
     SCENARIO1_CORRECT,
     SCENARIO1_WRONG,

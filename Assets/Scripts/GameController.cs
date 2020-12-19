@@ -14,80 +14,122 @@ public class GameController : MonoBehaviour
     [SerializeField] private AudioSource source;
     [SerializeField] private Animator animator;
     private DataContainer dataContainer;
-
+    private LevLoad levLoad;
+    
 
     private void Start()
     {
         dataContainer = DataContainer.GetInstance();
+        levLoad = FindObjectOfType<LevLoad>();
+        int currentScene = SceneManager.GetActiveScene().buildIndex;
         
-        if (SceneManager.GetActiveScene().buildIndex != 0)
+        //If it is not main manu, play new task.
+        if (currentScene != 0)
         {
             PlayAudio(AudioName.NEW_TASK);
         }
-
-        if (SceneManager.GetActiveScene().buildIndex == 4)
+        
+        //If scenario 1, play road ambient sound
+        if (currentScene > 0 && currentScene <= 3)
         {
+            avatarController.DisplayText(InteractionCode.SCENARIO1_START);
+            //TODO Implement this
+        }
+        
+        
+        //If scenario 2, play metro ambient sound.
+        if (currentScene >= 4 && currentScene <= 6)
+        {
+            avatarController.DisplayText(InteractionCode.SCENARIO2_START);
             PlayAudio(AudioName.METRO_AMBIENT);
         }
+        
+        //TODO If scenario 3
+        if (currentScene == 7)
+        {
+            avatarController.DisplayText(InteractionCode.SCENARIO3_START_LV1);
+        }
+        else if (currentScene == 8)
+        {
+            avatarController.DisplayText(InteractionCode.SCENARIO3_START_LV2);
+        }
+        
+    }
+    
+    public void MenuHandle(MenuInteractionCode code)
+    {
+        WriteInConsole("Handling MenuInteractionCode " + code);
+        avatarController.DisplayText(code);
+        switch (code)
+        {
+            case MenuInteractionCode.LOAD1_1:
+                animator.SetTrigger("select");
+                //dataContainer.CompleteLevel(0);
+                PlayAudio(AudioName.POSITIVE_FEEDBACK);
+                levLoad.LoadLevel(1);
+                break;
+            case MenuInteractionCode.LOAD2_1:
+                animator.SetTrigger("select");
+                PlayAudio(AudioName.POSITIVE_FEEDBACK);
+                dataContainer.CompleteLevel(3);
+                levLoad.LoadLevel(4);
+                break;
+        }
+        
     }
 
-    public void Handle(SelectableCode code)
+    public void Handle(InteractionCode code)
     {
-        //TODO Serialize this
-        LevLoad levLoad =FindObjectOfType<LevLoad>();
-        
-        if (debugInGameConsole != null)
-        {
-            debugInGameConsole.text = "Selezionato " + code + "!";    
-        }
+
+        WriteInConsole("Handling " + code);
         
         avatarController.DisplayText(code);
         
         switch (code)
         {
-            case SelectableCode.SCENARIO1_CORRECT:
+            case InteractionCode.SCENARIO1_CORRECT:
                 PlayAudio(AudioName.POSITIVE_FEEDBACK);
                 animator.SetTrigger("correct");
                 levLoad.LoadLevel(0);
                 break;
-            case SelectableCode.SCENARIO1_WRONG:
+            case InteractionCode.SCENARIO1_WRONG:
                 debugInGameConsole.text = "Scelta sbagliata! " + code;
                 PlayAudio(AudioName.NEGATIVE_FEEDBACK);
                 animator.SetTrigger("wrong");
                 break;
-            case SelectableCode.SCENARIO2_CORRECT:
+            case InteractionCode.SCENARIO2_CORRECT:
                 PlayAudio(AudioName.POSITIVE_FEEDBACK);
                 animator.SetTrigger("correct");
                 levLoad.LoadLevel(0);
                 break;
-            case SelectableCode.SCENARIO2_WRONG:
+            case InteractionCode.SCENARIO2_WRONG:
                 PlayAudio(AudioName.NEGATIVE_FEEDBACK);
                 animator.SetTrigger("wrong");
                 debugInGameConsole.text = "Scelta sbagliata! " + code;
                 break;
-            case SelectableCode.LOAD1_1:
-                animator.SetTrigger("select");
-                dataContainer.CompleteLevel(0);
-                levLoad.LoadLevel(1);
-                break;
-            case SelectableCode.LOAD2_1:
-                animator.SetTrigger("select");
-                dataContainer.CompleteLevel(3);
-                levLoad.LoadLevel(4);
-                break;
-            case SelectableCode.SCENARIO1_LASTCORRECT:
+            case InteractionCode.SCENARIO1_LASTCORRECT:
                 PlayAudio(AudioName.POSITIVE_FEEDBACK);
                 animator.SetTrigger("correct");
-                levLoad.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
+                levLoad.LoadLevel(0);
                 break;
         }
     }
 
+    public void WriteInConsole(string toWrite)
+    {
+        if (debugInGameConsole != null)
+        {
+            debugInGameConsole.text += "\n" + toWrite + "\n";
+        }
+        
+    }
+
     private void PlayAudio(AudioName audioName)
     {
-        source.PlayOneShot(sounds[(int)audioName]);
+        //debugInGameConsole.text += "Playing " + (int)(audioName);
+        //source.PlayOneShot(sounds[(int)audioName]);
         
-        /*
+        
          switch (audioName)
         {
             case AudioName.POSITIVE_FEEDBACK:
@@ -102,13 +144,14 @@ public class GameController : MonoBehaviour
             case AudioName.METRO_AMBIENT:
                 source.PlayOneShot(sounds[3]);
                 break;
-            case AudioName.METRO_TRAIN_ARRIVE
+            case AudioName.METRO_TRAIN_ARRIVE:
+                break;
         }
-        */
+        
     }
 }
 
-public enum SelectableCode
+public enum InteractionCode
 {
     SCENARIO1_CORRECT,     //0
     SCENARIO1_WRONG,
@@ -116,8 +159,6 @@ public enum SelectableCode
     SCENARIO2_WRONG,
     SCENARIO3_CORRECT,
     SCENARIO3_WRONG,       //5
-    LOAD1_1,
-    LOAD2_1,
     MAINMENU_START,
     SCENARIO1_START,
     SCENARIO1_LASTCORRECT, //10
@@ -128,16 +169,20 @@ public enum SelectableCode
     SCENARIO3_START_LV1,    //15
     SCENARIO3_START_LV2,
     SCENARIO3_PAYMENT,
-    SCENARIO3_LASTCORRECT,
-    LOAD1_2,
-    LOAD1_3,
-    LOAD2_2,                //20
-    LOAD2_3,
-    LOAD3_1,
-    LOAD3_2
-    
+    SCENARIO3_LASTCORRECT
+}
 
 
+public enum MenuInteractionCode
+{
+    LOAD1_1 = 11,
+    LOAD1_2 = 12,
+    LOAD1_3 = 13,
+    LOAD2_1 = 21,
+    LOAD2_2 = 22,
+    LOAD2_3 = 23,
+    LOAD3_1 = 31,
+    LOAD3_2 = 32
 }
 
 public enum AudioName

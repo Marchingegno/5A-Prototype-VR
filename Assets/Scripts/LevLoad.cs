@@ -28,8 +28,9 @@ public class LevLoad : MonoBehaviour
         transition.SetTrigger("Start");
         //wait for it to end
         yield return new WaitForSeconds(transitionDelay);
-
+        
         //change scene
-        SceneManager.LoadScene(levelIndex);
+        //SceneManager.LoadScene(levelIndex);
+        Application.LoadLevel(levelIndex);
     }
 }
