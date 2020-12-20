@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6118201623389431916}
   - component: {fileID: 1123032979099119377}
   - component: {fileID: 320817594841632224}
-  - component: {fileID: 7903519989776305080}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -53,6 +52,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4835c5ac411979f49b429ee19891a67c, type: 3}
   - {fileID: 8300000, guid: 440a766779a632c4aa4d4c8cd2641ac8, type: 3}
   - {fileID: 8300000, guid: 89855c90e212920489b42f0a9e7639a0, type: 3}
+  - {fileID: 8300000, guid: d4c35a383f7378a43913764a2b66938c, type: 3}
   source: {fileID: 0}
   animator: {fileID: 0}
 --- !u!114 &320817594841632224
@@ -68,35 +68,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   avatarText: {fileID: 0}
---- !u!114 &7903519989776305080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954688336888070953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c16769f4ac6a1f242b1a7850e73da72b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioClips:
-  - {fileID: 8300000, guid: bfec849fc898ef2438a123b62189c951, type: 3}
-  - {fileID: 8300000, guid: 74b2914ea1fedb845a0cd4574bfe51d3, type: 3}
-  - {fileID: 8300000, guid: fed545a22d1f06d4bbe6cf54c14919e0, type: 3}
-  - {fileID: 8300000, guid: a8a8df4834d20d347868bd1db72a03df, type: 3}
-  - {fileID: 8300000, guid: 2163884e2956ae742946b85aace57f51, type: 3}
-  - {fileID: 8300000, guid: 9b39115456c120946a19741d0dfe59b8, type: 3}
-  - {fileID: 8300000, guid: 81d0aeee4c652144fbd9442b72b37596, type: 3}
-  - {fileID: 8300000, guid: 3a9d62de125019546ad03cab38ee2d75, type: 3}
-  - {fileID: 8300000, guid: 5bbc63409c14358449475208f9e325d9, type: 3}
-  - {fileID: 8300000, guid: 463fbfd260fc39c4993624937d40253f, type: 3}
-  - {fileID: 8300000, guid: b96ee40b24887654bbe3d90059a7ae32, type: 3}
-  - {fileID: 8300000, guid: cb7d8a4e2e16e2049a98a46df78507af, type: 3}
-  - {fileID: 8300000, guid: 7512a95c0e08200479c1257209a10763, type: 3}
-  - {fileID: 8300000, guid: bd71071a4f0d23049bf2502af5888c88, type: 3}
-  - {fileID: 8300000, guid: 100b7711a031ae94e82077f57cdab245, type: 3}
-  menuAudioClips:
-  - {fileID: 8300000, guid: dc559c8a411f3e9499b9e5f1e19178d6, type: 3}
-  - {fileID: 8300000, guid: a7f1ad9cd5a15224cb5b0f78e8fed418, type: 3}
-  - {fileID: 8300000, guid: 8dbdd11f15a3a9b4a84040a8b083b1c5, type: 3}

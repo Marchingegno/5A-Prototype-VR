@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private Animator animator;
     private DataContainer dataContainer;
     private LevLoad levLoad;
+    private Scenario3Controller scenario3Controller;
     
 
     private void Start()
@@ -23,7 +24,7 @@ public class GameController : MonoBehaviour
         //If main menu
         if (currentScene == 0)
         {
-            avatarController.DisplayText(MenuInteractionCode.START);
+            avatarController.Talk(MenuInteractionCode.START);
         }
         
         //If it is not main manu, play new task.
@@ -35,7 +36,7 @@ public class GameController : MonoBehaviour
         //If scenario 1, play road ambient sound
         if (currentScene > 0 && currentScene <= 3)
         {
-            avatarController.DisplayText(InteractionCode.SCENARIO1_START);
+            avatarController.Talk(InteractionCode.SCENARIO1_START);
             //TODO Implement this
         }
         
@@ -43,18 +44,20 @@ public class GameController : MonoBehaviour
         //If scenario 2, play metro ambient sound.
         if (currentScene >= 4 && currentScene <= 6)
         {
-            avatarController.DisplayText(InteractionCode.SCENARIO2_START);
+            avatarController.Talk(InteractionCode.SCENARIO2_START);
             PlayAudio(AudioName.METRO_AMBIENT);
         }
         
         //TODO If scenario 3
         if (currentScene == 7)
         {
-            avatarController.DisplayText(InteractionCode.SCENARIO3_START_LV1);
+            scenario3Controller = FindObjectOfType<Scenario3Controller>();
+            avatarController.Talk(InteractionCode.SCENARIO3_START_LV1);
         }
         else if (currentScene == 8)
         {
-            avatarController.DisplayText(InteractionCode.SCENARIO3_START_LV2);
+            scenario3Controller = FindObjectOfType<Scenario3Controller>();
+            avatarController.Talk(InteractionCode.SCENARIO3_START_LV2);
         }
         
     }
@@ -62,7 +65,7 @@ public class GameController : MonoBehaviour
     public void MenuHandle(MenuInteractionCode code)
     {
         WriteInConsole("Handling MenuInteractionCode " + code);
-        avatarController.DisplayText(code);
+        avatarController.Talk(code);
         switch (code)
         {
             case MenuInteractionCode.LOAD1_1:
@@ -74,8 +77,13 @@ public class GameController : MonoBehaviour
             case MenuInteractionCode.LOAD2_1:
                 animator.SetTrigger("select");
                 PlayAudio(AudioName.POSITIVE_FEEDBACK);
-                dataContainer.CompleteLevel(3);
+                //dataContainer.CompleteLevel(3);
                 levLoad.LoadLevel(4);
+                break;
+            case MenuInteractionCode.LOAD3_1:
+                animator.SetTrigger("select");
+                PlayAudio(AudioName.POSITIVE_FEEDBACK);
+                levLoad.LoadLevel(7);
                 break;
         }
         
@@ -86,43 +94,73 @@ public class GameController : MonoBehaviour
 
         WriteInConsole("Handling " + code);
         
-        avatarController.DisplayText(code);
+        avatarController.Talk(code);
         
         switch (code)
         {
             case InteractionCode.SCENARIO1_CORRECT:
-                PlayAudio(AudioName.POSITIVE_FEEDBACK);
-                animator.SetTrigger("correct");
-                levLoad.LoadLevel(0);
+                EndOfActivityFeedback();
                 break;
             case InteractionCode.SCENARIO1_WRONG:
-                debugInGameConsole.text = "Scelta sbagliata! " + code;
-                PlayAudio(AudioName.NEGATIVE_FEEDBACK);
-                animator.SetTrigger("wrong");
+                NegativeFeedback();
                 break;
             case InteractionCode.SCENARIO2_CORRECT:
-                PlayAudio(AudioName.POSITIVE_FEEDBACK);
-                animator.SetTrigger("correct");
-                levLoad.LoadLevel(0);
+                EndOfActivityFeedback();
                 break;
             case InteractionCode.SCENARIO2_WRONG:
-                PlayAudio(AudioName.NEGATIVE_FEEDBACK);
-                animator.SetTrigger("wrong");
-                debugInGameConsole.text = "Scelta sbagliata! " + code;
+                NegativeFeedback();
                 break;
             case InteractionCode.SCENARIO1_LASTCORRECT:
-                PlayAudio(AudioName.POSITIVE_FEEDBACK);
-                animator.SetTrigger("correct");
+                EndOfActivityFeedback();
+                break;
+            case InteractionCode.SCENARIO3_WRONG:
+                NegativeFeedback();
+                break;
+            case InteractionCode.SCENARIO3_LANGUAGE_CORRECT:
+                PositiveFeedback();
+                scenario3Controller.Deactivate(code);
+                break;
+            case InteractionCode.SCENARIO3_TICKETTYPE_CORRECT:
+                PositiveFeedback();
+                scenario3Controller.Deactivate(code);
+                break;
+            case InteractionCode.SCENARIO3_TICKETNUMBER_CORRECT:
+                PositiveFeedback();
+                scenario3Controller.Deactivate(code);
+                break;
+            case InteractionCode.SCENARIO3_PAYMENT_CORRECT:
+                PositiveFeedback();
+                scenario3Controller.Deactivate(code);
                 levLoad.LoadLevel(0);
                 break;
+            
         }
+        
+    }
+
+    private void EndOfActivityFeedback()
+    {
+        PlayAudio(AudioName.END_OF_EXPERIENCE_FEEDBACK);
+        animator.SetTrigger("correct");
+        levLoad.LoadLevel(0);
+    }
+    private void PositiveFeedback()
+    {
+        PlayAudio(AudioName.POSITIVE_FEEDBACK);
+        animator.SetTrigger("select");
+    }
+
+    private void NegativeFeedback()
+    {
+        PlayAudio(AudioName.NEGATIVE_FEEDBACK);
+        animator.SetTrigger("wrong");
     }
 
     public void WriteInConsole(string toWrite)
     {
         if (debugInGameConsole != null)
         {
-            debugInGameConsole.text += "\n" + toWrite + "\n";
+            debugInGameConsole.text += "\n" + toWrite;
         }
         
     }
@@ -149,6 +187,9 @@ public class GameController : MonoBehaviour
                 break;
             case AudioName.METRO_TRAIN_ARRIVE:
                 break;
+            case AudioName.END_OF_EXPERIENCE_FEEDBACK:
+                source.PlayOneShot(sounds[5]);
+                break;
         }
         
     }
@@ -166,18 +207,16 @@ public enum InteractionCode
     SCENARIO1_HELP                     = 14 ,         
     SCENARIO2_START                    = 20 ,         
     SCENARIO2_LASTCORRECT              = 23 ,                 
-    SCENARIO2_HELP                     = 24 ,         
-    PAD1                               = 1  , 
-    PAD2                               = 1  , 
+    SCENARIO2_HELP                     = 24 ,
     SCENARIO3_START_LV1                = 30 ,             
     SCENARIO3_START_LV2                = 31 ,             
-    SCENARIO3_LANUAGE_CORRECT          = 32 ,                     
+    SCENARIO3_LANGUAGE_CORRECT         = 32 ,                     
     SCENARIO3_TICKETTYPE_CORRECT       = 33 ,                         
     SCENARIO3_TICKETNUMBER_CORRECT     = 34 ,                         
     SCENARIO3_PAYMENT_CORRECT          = 35 ,                     
     SCENARIO3_WRONG                    = 36 ,         
-    SCENARIO3_PAYMENT                  = 1  ,   
-    SCENARIO3_CORRECT                  = 1  ,
+    SCENARIO3_PAYMENT                  = 9999  ,   
+    SCENARIO3_CORRECT                  = 9998  ,
     SCENARIO3_LASTCORRECT              = 37 ,                 
 }
 
@@ -202,6 +241,7 @@ public enum AudioName
     NEGATIVE_FEEDBACK,
     NEW_TASK,
     METRO_AMBIENT,
-    METRO_TRAIN_ARRIVE
+    METRO_TRAIN_ARRIVE,
+    END_OF_EXPERIENCE_FEEDBACK,
 
 }

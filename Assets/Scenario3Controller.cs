@@ -21,7 +21,7 @@ public class Scenario3Controller : MonoBehaviour
     {
         switch (code)
         {
-            case InteractionCode.SCENARIO3_LANUAGE_CORRECT:
+            case InteractionCode.SCENARIO3_LANGUAGE_CORRECT:
                 SelezioneLingua.SetActive(false);
                 TipologiaBiglietto.SetActive(true);
                 break;

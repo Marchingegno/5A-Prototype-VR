@@ -6,48 +6,48 @@ using UnityEngine;
 
 public class DialoguesAndSounds : MonoBehaviour
 {
-	private static Dictionary<InteractionCode, string> dialogues = new Dictionary<InteractionCode, string>();
-    private static Dictionary<MenuInteractionCode, string> menuDialogues = new Dictionary<MenuInteractionCode, string>();
-    private static Dictionary<InteractionCode, AudioClip> audios = new Dictionary<InteractionCode, AudioClip>();
-    private static Dictionary<MenuInteractionCode, AudioClip> menuAudios = new Dictionary<MenuInteractionCode, AudioClip>();
+	private Dictionary<InteractionCode, string> dialogues = new Dictionary<InteractionCode, string>();
+    private Dictionary<MenuInteractionCode, string> menuDialogues = new Dictionary<MenuInteractionCode, string>();
+    private Dictionary<InteractionCode, AudioClip> audios = new Dictionary<InteractionCode, AudioClip>();
+    private Dictionary<MenuInteractionCode, AudioClip> menuAudios = new Dictionary<MenuInteractionCode, AudioClip>();
     [SerializeField] private AudioClip[] audioClips;
     [SerializeField] private AudioClip[] menuAudioClips;
-    
-    //Singleton
-    private DialoguesAndSounds instance;
-    
-    
+
+
     private void Start()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-        
-        
         BuildStringDictionary();
         BuildAudioDictionary();
-        
-        
+ 
     }
 
-    public static string GetPhrase(InteractionCode code)
+    public string GetPhrase(InteractionCode code)
     {
 	    dialogues.TryGetValue(code, out var phrase);
-	    return phrase;
+        FindObjectOfType<GameController>().WriteInConsole("Phrase to write is " + phrase);
+        return phrase;
     }
 
-    public static string GetPhrase(MenuInteractionCode code)
+    public string GetPhrase(MenuInteractionCode code)
     {
         menuDialogues.TryGetValue(code, out var phrase);
         return phrase;
     }
 
+    public AudioClip GetAudio(MenuInteractionCode code)
+    {
+        menuAudios.TryGetValue(code, out var audio);
+        return audio;
+    }
+    
+    public AudioClip GetAudio(InteractionCode code)
+    {
+        audios.TryGetValue(code, out var audio);
+        return audio;
+    }
+    
+    
+    
     private void BuildStringDictionary()
     {
         menuDialogues.Add(MenuInteractionCode.LOAD1_1, "Andiamo alla fermata della metro!");
@@ -56,10 +56,9 @@ public class DialoguesAndSounds : MonoBehaviour
         menuDialogues.Add(MenuInteractionCode.LOAD2_1, "Entriamo dentro la metro!");
         menuDialogues.Add(MenuInteractionCode.LOAD2_2, "Entriamo dentro la metro!");
         menuDialogues.Add(MenuInteractionCode.LOAD2_3, "Entriamo dentro la metro!");
-        menuDialogues.Add(MenuInteractionCode.LOAD2_2, "Compriamo il biglietto!");
-        menuDialogues.Add(MenuInteractionCode.LOAD2_3, "Compriamo il biglietto!");
+        menuDialogues.Add(MenuInteractionCode.LOAD3_1, "Compriamo il biglietto!");
+        menuDialogues.Add(MenuInteractionCode.LOAD3_2, "Compriamo il biglietto!");
         menuDialogues.Add(MenuInteractionCode.START, "Ciao! Sei pronto per questa avventura?\nSeleziona il livello che vuoi giocare.");
-        
         dialogues.Add(InteractionCode.SCENARIO1_START, "Seleziona il logo M della metro rossa!");
         dialogues.Add(InteractionCode.SCENARIO1_CORRECT, "Bravo! Hai fatto la scelta corretta.\n" +
                                                           "Passiamo al prossimo livello.");
@@ -68,19 +67,18 @@ public class DialoguesAndSounds : MonoBehaviour
         dialogues.Add(InteractionCode.SCENARIO1_WRONG, "Non è quella l'insegna della metro rossa.");
         dialogues.Add(InteractionCode.SCENARIO1_HELP, "Guarda intorno a te e cerca di individuare un logo rosso messo in alto.\n" +
                                                       "La stazione della metro rossa ha il corrimano rosso.");
-        
         dialogues.Add(InteractionCode.SCENARIO2_START, "Siamo dentro la metro! Guardati intorno e seleziona la macchinetta per fare il biglietto.");
         dialogues.Add(InteractionCode.SCENARIO2_CORRECT, "Bravo! Hai selezionato la macchinetta.\n" +
                                                           "Passiamo al prossimo livello.");
         dialogues.Add(InteractionCode.SCENARIO2_LASTCORRECT, "Bravo! Ora compriamo il biglietto.");
         dialogues.Add(InteractionCode.SCENARIO2_WRONG, "Quello è un cartellone pubblicitario. Non è la macchinetta dei biglietti.");
         dialogues.Add(InteractionCode.SCENARIO2_HELP, "La macchinetta è facile da individuare: è rossa ed è molto alta.");
-        
-        dialogues.Add(InteractionCode.SCENARIO3_START_LV1, "Ora puoi acquistare il biglietto. Osserva attentamente le opzioni e scegli l'opzione indicata dal cerchio verde nell'immagine,");
+        dialogues.Add(InteractionCode.SCENARIO3_START_LV1, "Ora puoi acquistare il biglietto. Osserva attentamente le opzioni e scegli l'opzione indicata dal cerchio verde nell'immagine.");
         dialogues.Add(InteractionCode.SCENARIO3_START_LV2, "Prova ad acquistare il biglietto senza alcun aiuto.");
         dialogues.Add(InteractionCode.SCENARIO3_PAYMENT, "Ottimo! Ora devi pagare il biglietto. Costa 2 euro.");
         dialogues.Add(InteractionCode.SCENARIO3_CORRECT, "Bravissimo! Passiamo al prossimo livello.");
         dialogues.Add(InteractionCode.SCENARIO3_LASTCORRECT, "Bravissimo! Se hai completato anche gli altri scenari, sei pronto per l'avventura in realtà aumentata.");
+        FindObjectOfType<GameController>().WriteInConsole("Built dictionary with length " + menuDialogues.Count + " and " + dialogues.Count);
     }
 
     private void BuildAudioDictionary()
@@ -91,7 +89,7 @@ public class DialoguesAndSounds : MonoBehaviour
         menuAudios.Add(MenuInteractionCode.LOAD2_1, menuAudioClips[2]);
         menuAudios.Add(MenuInteractionCode.LOAD2_2, menuAudioClips[2]);
         menuAudios.Add(MenuInteractionCode.LOAD2_3, menuAudioClips[2]);
-        menuAudios.Add(MenuInteractionCode.START  , menuAudios[0]);
+        menuAudios.Add(MenuInteractionCode.START, menuAudios[0]);
         //TODO Add these
         //menuAudios.Add(MenuInteractionCode.LOAD2_2,);
         //menuAudios.Add(MenuInteractionCode.LOAD2_3,);

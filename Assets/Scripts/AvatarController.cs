@@ -8,24 +8,41 @@ using UnityEngine.UI;
 public class AvatarController : MonoBehaviour
 {
 	[SerializeField] private Text avatarText;
+	private DialoguesAndSounds dialoguesAndSounds;
+	[SerializeField] private AudioSource dialoguesSource;
 
 	private void Start()
 	{
-		avatarText.text = "Benvenuto! Scegli il livello da giocare.";
+		dialoguesAndSounds = FindObjectOfType<DialoguesAndSounds>();
 	}
 	
 
-	public void DisplayText(InteractionCode code)
+	public void Talk(InteractionCode code)
 	{
-		string textToDisplay = DialoguesAndSounds.GetPhrase(code);
+		string textToDisplay = dialoguesAndSounds.GetPhrase(code);
+		AudioClip audioClip = dialoguesAndSounds.GetAudio(code);
+		if (audioClip != null)
+		{
+			dialoguesSource.PlayOneShot(audioClip);	
+		}
 		
 		avatarText.text = " " + textToDisplay;
 	}
 
-	public void DisplayText(MenuInteractionCode code)
+	public void Talk(MenuInteractionCode code)
 	{
-		string textToDisplay = DialoguesAndSounds.GetPhrase(code);
+		string textToDisplay = dialoguesAndSounds.GetPhrase(code);
+		AudioClip audioClip = dialoguesAndSounds.GetAudio(code);
+		if (audioClip != null)
+		{
+			dialoguesSource.PlayOneShot(audioClip);	
+		}
 		avatarText.text = " " + textToDisplay;
+	}
+
+	public void Talk(string strToDisplay)
+	{
+		avatarText.text = " " + strToDisplay;
 	}
 	
 }
