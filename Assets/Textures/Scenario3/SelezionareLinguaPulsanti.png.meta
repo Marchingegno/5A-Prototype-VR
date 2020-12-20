@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: 554f9e07223ac80498984771e0ca7ebe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1753235784310379457
+    second: SelezionareLinguaPulsanti_0
+  - first:
+      213: 1147172858149657665
+    second: SelezionareLinguaPulsanti_1
+  - first:
+      213: -1561184312163165593
+    second: SelezionareLinguaPulsanti_2
+  - first:
+      213: 569222875839319353
+    second: SelezionareLinguaPulsanti_3
+  - first:
+      213: 2933576632431679213
+    second: SelezionareLinguaPulsanti_4
+  - first:
+      213: 5569894677587965181
+    second: SelezionareLinguaPulsanti_5
+  - first:
+      213: 6955731137033143708
+    second: SelezionareLinguaPulsanti_6
+  - first:
+      213: 998013769331145745
+    second: SelezionareLinguaPulsanti_7
+  - first:
+      213: 6736356649061472416
+    second: SelezionareLinguaPulsanti_8
+  - first:
+      213: 1276929569629117597
+    second: SelezionareLinguaPulsanti_9
+  - first:
+      213: 8511595074877168407
+    second: SelezionareLinguaPulsanti_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SelezionareLinguaPulsanti_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4431
+        width: 4257
+        height: 1637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3d25328aeb45810800000000000000
+      internalID: 1753235784310379457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelezionareLinguaPulsanti_1
+      rect:
+        serializedVersion: 2
+        x: 9510
+        y: 7133
+        width: 1758
+        height: 1190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cdaf1f2a39bef00800000000000000
+      internalID: 1147172858149657665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelezionareLinguaPulsanti_3
+      rect:
+        serializedVersion: 2
+        x: 5989
+        y: 4431
+        width: 4209
+        height: 1639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dcd60903946e700800000000000000
+      internalID: 569222875839319353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelezionareLinguaPulsanti_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 4077
+        height: 1636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c7ee94c38a9dd00800000000000000
+      internalID: 998013769331145745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelezionareLinguaPulsanti_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2209
+        width: 4096
+        height: 1644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a856ab7ea85c7d50800000000000000
+      internalID: 6736356649061472416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelezionareLinguaPulsanti_9
+      rect:
+        serializedVersion: 2
+        x: 5989
+        y: 2209
+        width: 4194
+        height: 1644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c9fe89da098b110800000000000000
+      internalID: 1276929569629117597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

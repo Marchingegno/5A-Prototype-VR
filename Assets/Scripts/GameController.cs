@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -159,24 +156,31 @@ public class GameController : MonoBehaviour
 
 public enum InteractionCode
 {
-    SCENARIO1_CORRECT,     //0
-    SCENARIO1_WRONG,
-    SCENARIO2_CORRECT,
-    SCENARIO2_WRONG,
-    SCENARIO3_CORRECT,
-    SCENARIO3_WRONG,       //5
-    MAINMENU_START,
-    SCENARIO1_START,
-    SCENARIO1_LASTCORRECT, //10
-    SCENARIO1_HELP,
-    SCENARIO2_START,
-    SCENARIO2_LASTCORRECT,
-    SCENARIO2_HELP,
-    SCENARIO3_START_LV1,    //15
-    SCENARIO3_START_LV2,
-    SCENARIO3_PAYMENT,
-    SCENARIO3_LASTCORRECT
+    SCENARIO1_CORRECT                  = 11 ,          
+    SCENARIO1_WRONG                    = 12 ,         
+    SCENARIO2_CORRECT                  = 21 ,             
+    SCENARIO2_WRONG                    = 22 ,         
+    MAINMENU_START                     = 0  ,         
+    SCENARIO1_START                    = 10 ,         
+    SCENARIO1_LASTCORRECT              = 13 ,                 
+    SCENARIO1_HELP                     = 14 ,         
+    SCENARIO2_START                    = 20 ,         
+    SCENARIO2_LASTCORRECT              = 23 ,                 
+    SCENARIO2_HELP                     = 24 ,         
+    PAD1                               = 1  , 
+    PAD2                               = 1  , 
+    SCENARIO3_START_LV1                = 30 ,             
+    SCENARIO3_START_LV2                = 31 ,             
+    SCENARIO3_LANUAGE_CORRECT          = 32 ,                     
+    SCENARIO3_TICKETTYPE_CORRECT       = 33 ,                         
+    SCENARIO3_TICKETNUMBER_CORRECT     = 34 ,                         
+    SCENARIO3_PAYMENT_CORRECT          = 35 ,                     
+    SCENARIO3_WRONG                    = 36 ,         
+    SCENARIO3_PAYMENT                  = 1  ,   
+    SCENARIO3_CORRECT                  = 1  ,
+    SCENARIO3_LASTCORRECT              = 37 ,                 
 }
+
 
 
 public enum MenuInteractionCode
