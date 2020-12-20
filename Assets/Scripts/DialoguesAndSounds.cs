@@ -89,23 +89,20 @@ public class DialoguesAndSounds : MonoBehaviour
         menuAudios.Add(MenuInteractionCode.LOAD2_1, menuAudioClips[2]);
         menuAudios.Add(MenuInteractionCode.LOAD2_2, menuAudioClips[2]);
         menuAudios.Add(MenuInteractionCode.LOAD2_3, menuAudioClips[2]);
-        menuAudios.Add(MenuInteractionCode.START, menuAudios[0]);
+        menuAudios.Add(MenuInteractionCode.START, menuAudioClips[0]);
         //TODO Add these
         //menuAudios.Add(MenuInteractionCode.LOAD2_2,);
         //menuAudios.Add(MenuInteractionCode.LOAD2_3,);
-        
         audios.Add(InteractionCode.SCENARIO1_START, audioClips[4]);
         audios.Add(InteractionCode.SCENARIO1_CORRECT, audioClips[3]);
         audios.Add(InteractionCode.SCENARIO1_LASTCORRECT, audioClips[1]);
         audios.Add(InteractionCode.SCENARIO1_WRONG, audioClips[2]);
         audios.Add(InteractionCode.SCENARIO1_HELP, audioClips[0]);
-        
         audios.Add(InteractionCode.SCENARIO2_START, audioClips[8]);
         audios.Add(InteractionCode.SCENARIO2_CORRECT, audioClips[5]);
         audios.Add(InteractionCode.SCENARIO2_LASTCORRECT, audioClips[7]);
         audios.Add(InteractionCode.SCENARIO2_WRONG, audioClips[9]);
         audios.Add(InteractionCode.SCENARIO2_HELP, audioClips[6]);
-        
         audios.Add(InteractionCode.SCENARIO3_START_LV1, audioClips[13]);
         audios.Add(InteractionCode.SCENARIO3_START_LV2, audioClips[14]);
         audios.Add(InteractionCode.SCENARIO3_PAYMENT, audioClips[12]);

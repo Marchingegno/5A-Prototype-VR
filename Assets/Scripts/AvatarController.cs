@@ -20,11 +20,8 @@ public class AvatarController : MonoBehaviour
 	public void Talk(InteractionCode code)
 	{
 		string textToDisplay = dialoguesAndSounds.GetPhrase(code);
-		AudioClip audioClip = dialoguesAndSounds.GetAudio(code);
-		if (audioClip != null)
-		{
-			dialoguesSource.PlayOneShot(audioClip);	
-		}
+		StartCoroutine(PlayAudio(dialoguesAndSounds.GetAudio(code)));
+		
 		
 		avatarText.text = " " + textToDisplay;
 	}
@@ -32,12 +29,20 @@ public class AvatarController : MonoBehaviour
 	public void Talk(MenuInteractionCode code)
 	{
 		string textToDisplay = dialoguesAndSounds.GetPhrase(code);
-		AudioClip audioClip = dialoguesAndSounds.GetAudio(code);
+		StartCoroutine(PlayAudio(dialoguesAndSounds.GetAudio(code)));
+		
+		avatarText.text = " " + textToDisplay;
+	}
+
+	private IEnumerator PlayAudio(AudioClip audioClip)
+	{
+		yield return new WaitForSeconds(1f);
+		FindObjectOfType<GameController>().WriteInConsole("Trying to play audio");
 		if (audioClip != null)
 		{
+			FindObjectOfType<GameController>().WriteInConsole("Audio is not null, now playing it.");
 			dialoguesSource.PlayOneShot(audioClip);	
 		}
-		avatarText.text = " " + textToDisplay;
 	}
 
 	public void Talk(string strToDisplay)
