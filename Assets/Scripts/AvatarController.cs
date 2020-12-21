@@ -36,11 +36,9 @@ public class AvatarController : MonoBehaviour
 
 	private IEnumerator PlayAudio(AudioClip audioClip)
 	{
-		yield return new WaitForSeconds(1f);
-		FindObjectOfType<GameController>().WriteInConsole("Trying to play audio");
+		yield return new WaitForSeconds(0.9f);
 		if (audioClip != null)
 		{
-			FindObjectOfType<GameController>().WriteInConsole("Audio is not null, now playing it.");
 			dialoguesSource.PlayOneShot(audioClip);	
 		}
 	}

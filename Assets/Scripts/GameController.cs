@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour
     [FormerlySerializedAs("overlayText")] public Text debugInGameConsole;
     [SerializeField] private AvatarController avatarController;
     [SerializeField] private AudioClip[] sounds;
-    [SerializeField] private AudioSource source;
+    [FormerlySerializedAs("source")] [SerializeField] private AudioSource feedbackSource;
     [SerializeField] private Animator animator;
     private DataContainer dataContainer;
     private LevLoad levLoad;
@@ -20,6 +20,8 @@ public class GameController : MonoBehaviour
         dataContainer = DataContainer.GetInstance();
         levLoad = FindObjectOfType<LevLoad>();
         int currentScene = SceneManager.GetActiveScene().buildIndex;
+
+        feedbackSource.volume = 0.5f;
 
         //If main menu
         if (currentScene == 0)
@@ -41,11 +43,15 @@ public class GameController : MonoBehaviour
         }
         
         
-        //If scenario 2, play metro ambient sound.
+        //If scenario 2
         if (currentScene >= 4 && currentScene <= 6)
         {
             avatarController.Talk(InteractionCode.SCENARIO2_START);
-            PlayAudio(AudioName.METRO_AMBIENT);
+        }
+
+        if (currentScene >= 5 && currentScene <= 6)
+        {
+            //PlayAudio(AudioName.METRO_AMBIENT);
         }
         
         //TODO If scenario 3
@@ -74,11 +80,35 @@ public class GameController : MonoBehaviour
                 PlayAudio(AudioName.POSITIVE_FEEDBACK);
                 levLoad.LoadLevel(1);
                 break;
+            case MenuInteractionCode.LOAD1_2:
+                animator.SetTrigger("select");
+                //dataContainer.CompleteLevel(0);
+                PlayAudio(AudioName.POSITIVE_FEEDBACK);
+                levLoad.LoadLevel(2);
+                break;
+            case MenuInteractionCode.LOAD1_3:
+                animator.SetTrigger("select");
+                //dataContainer.CompleteLevel(0);
+                PlayAudio(AudioName.POSITIVE_FEEDBACK);
+                levLoad.LoadLevel(3);
+                break;
             case MenuInteractionCode.LOAD2_1:
                 animator.SetTrigger("select");
                 PlayAudio(AudioName.POSITIVE_FEEDBACK);
                 //dataContainer.CompleteLevel(3);
                 levLoad.LoadLevel(4);
+                break;
+            case MenuInteractionCode.LOAD2_2:
+                animator.SetTrigger("select");
+                PlayAudio(AudioName.POSITIVE_FEEDBACK);
+                //dataContainer.CompleteLevel(3);
+                levLoad.LoadLevel(5);
+                break;
+            case MenuInteractionCode.LOAD2_3:
+                animator.SetTrigger("select");
+                PlayAudio(AudioName.POSITIVE_FEEDBACK);
+                //dataContainer.CompleteLevel(3);
+                levLoad.LoadLevel(6);
                 break;
             case MenuInteractionCode.LOAD3_1:
                 animator.SetTrigger("select");
@@ -109,6 +139,9 @@ public class GameController : MonoBehaviour
                 break;
             case InteractionCode.SCENARIO2_WRONG:
                 NegativeFeedback();
+                break;
+            case InteractionCode.SCENARIO2_LASTCORRECT:
+                EndOfActivityFeedback();
                 break;
             case InteractionCode.SCENARIO1_LASTCORRECT:
                 EndOfActivityFeedback();
@@ -168,27 +201,27 @@ public class GameController : MonoBehaviour
     private void PlayAudio(AudioName audioName)
     {
         //debugInGameConsole.text += "Playing " + (int)(audioName);
-        //source.PlayOneShot(sounds[(int)audioName]);
+        //feedbackSource.PlayOneShot(sounds[(int)audioName]);
         
         
          switch (audioName)
         {
             case AudioName.POSITIVE_FEEDBACK:
-                source.PlayOneShot(sounds[0]);
+                feedbackSource.PlayOneShot(sounds[0]);
                 break;
             case AudioName.NEGATIVE_FEEDBACK:
-                source.PlayOneShot(sounds[1]);
+                feedbackSource.PlayOneShot(sounds[1]);
                 break;
             case AudioName.NEW_TASK:
-                source.PlayOneShot(sounds[2]);
+                feedbackSource.PlayOneShot(sounds[2]);
                 break;
             case AudioName.METRO_AMBIENT:
-                source.PlayOneShot(sounds[3]);
+                feedbackSource.PlayOneShot(sounds[3]);
                 break;
             case AudioName.METRO_TRAIN_ARRIVE:
                 break;
             case AudioName.END_OF_EXPERIENCE_FEEDBACK:
-                source.PlayOneShot(sounds[5]);
+                feedbackSource.PlayOneShot(sounds[5]);
                 break;
         }
         

@@ -401,13 +401,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.529
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 66
+  Priority: 172
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -784,6 +784,11 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 712207602}
+    - target: {fileID: 1123032979099119377, guid: 6e24fe6461c488f45888de3cc4709a9b,
+        type: 3}
+      propertyPath: feedbackSource
+      value: 
+      objectReference: {fileID: 7275395434809044224}
     - target: {fileID: 6118201623389431916, guid: 6e24fe6461c488f45888de3cc4709a9b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1120,6 +1125,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LevelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063308558627688010, guid: 3a74b00565cd54d41b9220559b9dade7,
+        type: 3}
+      propertyPath: transitionDelay
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7383985370737966931, guid: 3a74b00565cd54d41b9220559b9dade7,
         type: 3}

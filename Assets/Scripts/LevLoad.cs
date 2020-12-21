@@ -25,12 +25,14 @@ public class LevLoad : MonoBehaviour
     private IEnumerator LoadScene(int levelIndex)
     {
         //play animation
+        yield return new WaitForSeconds(transitionDelay);
         transition.SetTrigger("Start");
         //wait for it to end
-        yield return new WaitForSeconds(transitionDelay);
         
+        yield return new WaitForSeconds(2f);
         //change scene
         //SceneManager.LoadScene(levelIndex);
         Application.LoadLevel(levelIndex);
     }
+    
 }
