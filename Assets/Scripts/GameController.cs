@@ -1,7 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class GameController : MonoBehaviour
 {
@@ -13,15 +16,23 @@ public class GameController : MonoBehaviour
     private DataContainer dataContainer;
     private LevLoad levLoad;
     private Scenario3Controller scenario3Controller;
+    /**
+     * This will be used when something is selected from the controller.
+     * It's a boolean that has the function to block the transform of the controller
+     * when it is true. It will be true upon a selection and for 0.5 seconds after that.
+     */
+    private bool somethingWasSelected;
+    private Vector3 blockedPosition;
+    private Quaternion blockedRotation;
+    private GameObject rightController;
     
-
+    
     private void Start()
     {
         dataContainer = DataContainer.GetInstance();
         levLoad = FindObjectOfType<LevLoad>();
         int currentScene = SceneManager.GetActiveScene().buildIndex;
-
-        feedbackSource.volume = 0.5f;
+        
 
         //If main menu
         if (currentScene == 0)
@@ -39,7 +50,13 @@ public class GameController : MonoBehaviour
         if (currentScene > 0 && currentScene <= 3)
         {
             avatarController.Talk(InteractionCode.SCENARIO1_START);
-            //TODO Implement this
+        }
+
+        if (currentScene == 3)
+        {
+            //Play ambient sound
+            PlayAudio(AudioName.ROAD_AMBIENT);
+            PlayAudio(AudioName.METRO_AMBIENT);
         }
         
         
@@ -51,7 +68,9 @@ public class GameController : MonoBehaviour
 
         if (currentScene >= 5 && currentScene <= 6)
         {
-            //PlayAudio(AudioName.METRO_AMBIENT);
+            //Play sounds here
+            PlayAudio(AudioName.METRO_AMBIENT);
+            PlayAudio(AudioName.CROWD_AMBIENT);
         }
         
         //TODO If scenario 3
@@ -65,12 +84,21 @@ public class GameController : MonoBehaviour
             scenario3Controller = FindObjectOfType<Scenario3Controller>();
             avatarController.Talk(InteractionCode.SCENARIO3_START_LV2);
         }
-        
+
+        somethingWasSelected = false;
+        rightController = GameObject.FindGameObjectWithTag("RIGHTHAND");
     }
     
     public void MenuHandle(MenuInteractionCode code)
     {
         WriteInConsole("Handling MenuInteractionCode " + code);
+        WriteInConsole("something was selected is  " + somethingWasSelected);
+
+        if (somethingWasSelected) return;
+        somethingWasSelected = true;
+        blockedPosition = rightController.transform.position;
+        blockedRotation = rightController.transform.rotation;
+        
         avatarController.Talk(code);
         switch (code)
         {
@@ -116,13 +144,19 @@ public class GameController : MonoBehaviour
                 levLoad.LoadLevel(7);
                 break;
         }
-        
+
+        StartCoroutine(ReactivateInput());
+
     }
 
     public void Handle(InteractionCode code)
     {
 
         WriteInConsole("Handling " + code);
+        if (somethingWasSelected) return;
+        somethingWasSelected = true;
+        blockedPosition = rightController.transform.position;
+        blockedRotation = rightController.transform.rotation;
         
         avatarController.Talk(code);
         
@@ -168,7 +202,7 @@ public class GameController : MonoBehaviour
                 break;
             
         }
-        
+        StartCoroutine(ReactivateInput());
     }
 
     private void EndOfActivityFeedback()
@@ -181,6 +215,7 @@ public class GameController : MonoBehaviour
     {
         PlayAudio(AudioName.POSITIVE_FEEDBACK);
         animator.SetTrigger("select");
+
     }
 
     private void NegativeFeedback()
@@ -188,6 +223,25 @@ public class GameController : MonoBehaviour
         PlayAudio(AudioName.NEGATIVE_FEEDBACK);
         animator.SetTrigger("wrong");
     }
+
+
+    private IEnumerator ReactivateInput()
+    {
+        yield return new WaitForSeconds(1f);
+        somethingWasSelected = false;
+        WriteInConsole("Reactivated input");
+        yield return null;
+    }
+
+    private void LateUpdate()
+    {
+        if (somethingWasSelected)
+        {
+            rightController.transform.position = blockedPosition;
+            rightController.transform.rotation = blockedRotation;
+        }
+    }
+
 
     public void WriteInConsole(string toWrite)
     {
@@ -200,7 +254,7 @@ public class GameController : MonoBehaviour
 
     private void PlayAudio(AudioName audioName)
     {
-        //debugInGameConsole.text += "Playing " + (int)(audioName);
+        debugInGameConsole.text += "Feedback volume " + feedbackSource.volume;
         //feedbackSource.PlayOneShot(sounds[(int)audioName]);
         
         
@@ -218,7 +272,8 @@ public class GameController : MonoBehaviour
             case AudioName.METRO_AMBIENT:
                 feedbackSource.PlayOneShot(sounds[3]);
                 break;
-            case AudioName.METRO_TRAIN_ARRIVE:
+            case AudioName.CROWD_AMBIENT:
+                feedbackSource.PlayOneShot(sounds[4]);
                 break;
             case AudioName.END_OF_EXPERIENCE_FEEDBACK:
                 feedbackSource.PlayOneShot(sounds[5]);
@@ -274,7 +329,8 @@ public enum AudioName
     NEGATIVE_FEEDBACK,
     NEW_TASK,
     METRO_AMBIENT,
-    METRO_TRAIN_ARRIVE,
+    CROWD_AMBIENT,
     END_OF_EXPERIENCE_FEEDBACK,
+    ROAD_AMBIENT,
 
 }

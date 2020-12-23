@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class Scenario3Controller : MonoBehaviour
 {
@@ -19,6 +20,13 @@ public class Scenario3Controller : MonoBehaviour
 
     public void Deactivate(InteractionCode code)
     {
+        StartCoroutine(WaitAndDeactivate(code));
+    }
+
+    private IEnumerator WaitAndDeactivate(InteractionCode code)
+    {
+        yield return new WaitForSeconds(0.5f);
+        
         switch (code)
         {
             case InteractionCode.SCENARIO3_LANGUAGE_CORRECT:
@@ -39,6 +47,8 @@ public class Scenario3Controller : MonoBehaviour
                 break;
 
         }
+
+        yield return null;
     }
 
     // Update is called once per frame
