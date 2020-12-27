@@ -15,6 +15,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private Animator animator;
     private DataContainer dataContainer;
     private LevLoad levLoad;
+    private MenuController menuController;
     private Scenario3Controller scenario3Controller;
     /**
      * This will be used when something is selected from the controller.
@@ -37,6 +38,7 @@ public class GameController : MonoBehaviour
         //If main menu
         if (currentScene == 0)
         {
+            menuController = FindObjectOfType<MenuController>();
             avatarController.Talk(MenuInteractionCode.START);
         }
         
@@ -93,12 +95,8 @@ public class GameController : MonoBehaviour
     {
         WriteInConsole("Handling MenuInteractionCode " + code);
         WriteInConsole("something was selected is  " + somethingWasSelected);
-
-        if (somethingWasSelected) return;
-        somethingWasSelected = true;
-        blockedPosition = rightController.transform.position;
-        blockedRotation = rightController.transform.rotation;
         
+        menuController.Handle(code);
         avatarController.Talk(code);
         switch (code)
         {
@@ -153,11 +151,7 @@ public class GameController : MonoBehaviour
     {
 
         WriteInConsole("Handling " + code);
-        if (somethingWasSelected) return;
-        somethingWasSelected = true;
-        blockedPosition = rightController.transform.position;
-        blockedRotation = rightController.transform.rotation;
-        
+
         avatarController.Talk(code);
         
         switch (code)
@@ -320,7 +314,11 @@ public enum MenuInteractionCode
     LOAD2_2 = 22,
     LOAD2_3 = 23,
     LOAD3_1 = 31,
-    LOAD3_2 = 32
+    LOAD3_2 = 32,
+    INIZIAMO = 02,
+    HOME = 01,
+    IMPOSTAZIONI = 03,
+
 }
 
 public enum AudioName

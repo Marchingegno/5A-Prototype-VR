@@ -53,7 +53,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 440a766779a632c4aa4d4c8cd2641ac8, type: 3}
   - {fileID: 8300000, guid: 89855c90e212920489b42f0a9e7639a0, type: 3}
   - {fileID: 8300000, guid: d4c35a383f7378a43913764a2b66938c, type: 3}
-  source: {fileID: 0}
+  - {fileID: 8300000, guid: 3bb0fa17f96a1aa4a8b65bafc95ad20b, type: 3}
+  feedbackSource: {fileID: 0}
   animator: {fileID: 0}
 --- !u!114 &320817594841632224
 MonoBehaviour:
@@ -68,3 +69,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   avatarText: {fileID: 0}
+  dialoguesSource: {fileID: 0}

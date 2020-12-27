@@ -1,0 +1,311 @@
+fileFormatVersion: 2
+guid: be3aa6f39ccdef249b442d1c1cb6afa8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5932139736935635190
+    second: Pulsanti5_0
+  - first:
+      213: 2289021002877485085
+    second: Pulsanti5_1
+  - first:
+      213: 8071055735435378801
+    second: Pulsanti5_2
+  - first:
+      213: -2486633088126458693
+    second: Pulsanti5_3
+  - first:
+      213: 7070727363077467771
+    second: Pulsanti5_4
+  - first:
+      213: -996086809440304671
+    second: Pulsanti5_5
+  - first:
+      213: -7584743735080571705
+    second: Pulsanti5_6
+  - first:
+      213: 553953486765462614
+    second: Pulsanti5_7
+  - first:
+      213: -2987642594299294778
+    second: Pulsanti5_8
+  - first:
+      213: 4187184745061818106
+    second: Pulsanti5_9
+  - first:
+      213: -7121102261879191444
+    second: Pulsanti5_10
+  - first:
+      213: -3949455627990131831
+    second: Pulsanti5_11
+  - first:
+      213: -133115348192809186
+    second: Pulsanti5_12
+  - first:
+      213: -8594207935904120257
+    second: Pulsanti5_13
+  - first:
+      213: -4579165698943529304
+    second: Pulsanti5_14
+  - first:
+      213: 7397230918876239430
+    second: Pulsanti5_15
+  - first:
+      213: 434708185165969276
+    second: Pulsanti5_16
+  - first:
+      213: -1463739689154304414
+    second: Pulsanti5_17
+  - first:
+      213: -504756894626940918
+    second: Pulsanti5_18
+  - first:
+      213: 5315688346747305429
+    second: Pulsanti5_19
+  - first:
+      213: -939395429749749706
+    second: Pulsanti5_20
+  - first:
+      213: 6879537282280741515
+    second: Pulsanti5_21
+  - first:
+      213: -2392914677287607624
+    second: Pulsanti5_22
+  - first:
+      213: -7771969400033865439
+    second: Pulsanti5_23
+  - first:
+      213: 2669059758456319652
+    second: Pulsanti5_24
+  - first:
+      213: -1353558459400753134
+    second: Pulsanti5_25
+  - first:
+      213: 2775387493718327044
+    second: Pulsanti5_26
+  - first:
+      213: 3926677135574433548
+    second: Pulsanti5_27
+  - first:
+      213: -2081267652002896029
+    second: Pulsanti5_28
+  - first:
+      213: 5209187016744560361
+    second: Pulsanti5_29
+  - first:
+      213: 1112816827690122244
+    second: Pulsanti5_30
+  - first:
+      213: -365795089225533260
+    second: Pulsanti5_31
+  - first:
+      213: -7954792281263217406
+    second: Pulsanti5_32
+  - first:
+      213: 6682742834900014152
+    second: Pulsanti5_33
+  - first:
+      213: 6649767553083159216
+    second: Pulsanti5_34
+  - first:
+      213: 2939844442062794606
+    second: Pulsanti5_35
+  - first:
+      213: -6989226466506687443
+    second: Pulsanti5_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pulsanti5_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1404
+        width: 713
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8170239a1335250800000000000000
+      internalID: 5932139736935635190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pulsanti5_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 987
+        width: 713
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10cbef697c34cf10800000000000000
+      internalID: 2289021002877485085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pulsanti5_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 549
+        width: 716
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eeddb0315402260800000000000000
+      internalID: 7070727363077467771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pulsanti5_35
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 136
+        width: 1338
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f2f00b1fc6cc820800000000000000
+      internalID: 2939844442062794606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7dd737196a81cab418fd0f43e51ce01e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

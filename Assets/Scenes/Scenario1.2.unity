@@ -3987,6 +3987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: gate (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5f660e2ed435474ebd4564d08276e08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -239555428307642338, guid: a5f660e2ed435474ebd4564d08276e08,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10990,6 +10995,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: gate
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5f660e2ed435474ebd4564d08276e08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -239555428307642338, guid: a5f660e2ed435474ebd4564d08276e08,
         type: 3}
@@ -19400,6 +19410,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: gate (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5f660e2ed435474ebd4564d08276e08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -239555428307642338, guid: a5f660e2ed435474ebd4564d08276e08,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -25615,6 +25630,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: gate (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5f660e2ed435474ebd4564d08276e08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -239555428307642338, guid: a5f660e2ed435474ebd4564d08276e08,
         type: 3}
@@ -40901,6 +40921,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: gate (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5f660e2ed435474ebd4564d08276e08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -239555428307642338, guid: a5f660e2ed435474ebd4564d08276e08,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -49705,6 +49730,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: gate (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a5f660e2ed435474ebd4564d08276e08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -239555428307642338, guid: a5f660e2ed435474ebd4564d08276e08,
         type: 3}
