@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: 8ecbfa4ab117ca1409b199b30077f0ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5789592780421405150
+    second: VolumeSetting_0
+  - first:
+      213: 2587475070878495063
+    second: VolumeSetting_1
+  - first:
+      213: 5016833191233603060
+    second: VolumeSetting_2
+  - first:
+      213: -3778518117050807612
+    second: VolumeSetting_3
+  - first:
+      213: 8373165641043179934
+    second: VolumeSetting_4
+  - first:
+      213: 1425961041524285029
+    second: VolumeSetting_5
+  - first:
+      213: -3310454270028053338
+    second: VolumeSetting_6
+  - first:
+      213: -1047198507191357322
+    second: VolumeSetting_7
+  - first:
+      213: 8688875551062832514
+    second: VolumeSetting_8
+  - first:
+      213: 2452760849223530964
+    second: VolumeSetting_9
+  - first:
+      213: 2454440659717863488
+    second: VolumeSetting_10
+  - first:
+      213: -6676890470468198188
+    second: VolumeSetting_11
+  - first:
+      213: -7067001825894077514
+    second: VolumeSetting_12
+  - first:
+      213: 1018874604711804042
+    second: VolumeSetting_13
+  - first:
+      213: 93590639817295854
+    second: VolumeSetting_14
+  - first:
+      213: -3417376218740488228
+    second: VolumeSetting_15
+  - first:
+      213: -4125456755538944339
+    second: VolumeSetting_16
+  - first:
+      213: -4526173190971455176
+    second: VolumeSetting_17
+  - first:
+      213: 133697558103692223
+    second: VolumeSetting_18
+  - first:
+      213: -6553788561368820992
+    second: VolumeSetting_19
+  - first:
+      213: 3780275125911382220
+    second: VolumeSetting_20
+  - first:
+      213: 6085246068686002046
+    second: VolumeSetting_21
+  - first:
+      213: -3433982894406864940
+    second: VolumeSetting_22
+  - first:
+      213: -4681629300216865285
+    second: VolumeSetting_23
+  - first:
+      213: 2494463819866855166
+    second: VolumeSetting_24
+  - first:
+      213: -4351632046331110456
+    second: VolumeSetting_25
+  - first:
+      213: -7487420213219609624
+    second: VolumeSetting_26
+  - first:
+      213: -1589472568910406378
+    second: VolumeSetting_27
+  - first:
+      213: 7196340768015934487
+    second: VolumeSetting_28
+  - first:
+      213: 5049164274691584569
+    second: VolumeSetting_29
+  - first:
+      213: -1580365149313917821
+    second: VolumeSetting_30
+  - first:
+      213: 1062857147088069702
+    second: VolumeSetting_31
+  - first:
+      213: 8891264821996396907
+    second: VolumeSetting_32
+  - first:
+      213: 2284035231717353453
+    second: VolumeSetting_33
+  - first:
+      213: 5152502919049764143
+    second: VolumeSetting_34
+  - first:
+      213: 4194146077903238148
+    second: VolumeSetting_35
+  - first:
+      213: 764051721796592383
+    second: VolumeSetting_36
+  - first:
+      213: 8102725467917320778
+    second: VolumeSetting_37
+  - first:
+      213: -1798849908209229563
+    second: VolumeSetting_38
+  - first:
+      213: -2456320543411622255
+    second: VolumeSetting_39
+  - first:
+      213: -8875601212631384990
+    second: VolumeSetting_40
+  - first:
+      213: -8328833925673687838
+    second: VolumeSetting_41
+  - first:
+      213: -2792065699281369829
+    second: VolumeSetting_42
+  - first:
+      213: 3558453558580187776
+    second: VolumeSetting_43
+  - first:
+      213: 7612656451761399646
+    second: VolumeSetting_44
+  - first:
+      213: -4070296606141751049
+    second: VolumeSetting_45
+  - first:
+      213: -294922972845817459
+    second: VolumeSetting_46
+  - first:
+      213: 6074954811811302278
+    second: VolumeSetting_47
+  - first:
+      213: -1589912562447996771
+    second: VolumeSetting_48
+  - first:
+      213: -5727078624524835121
+    second: VolumeSetting_49
+  - first:
+      213: 85240538974669829
+    second: VolumeSetting_50
+  - first:
+      213: -850276884311340765
+    second: VolumeSetting_51
+  - first:
+      213: -8923258141664903482
+    second: VolumeSetting_52
+  - first:
+      213: -741172814795248464
+    second: VolumeSetting_53
+  - first:
+      213: -30504906185212798
+    second: VolumeSetting_54
+  - first:
+      213: 7474205856068526319
+    second: VolumeSetting_55
+  - first:
+      213: 1694352814296384619
+    second: VolumeSetting_56
+  - first:
+      213: -6301801982378991215
+    second: VolumeSetting_57
+  - first:
+      213: -4453154161745294783
+    second: VolumeSetting_58
+  - first:
+      213: -6328159405595415003
+    second: VolumeSetting_59
+  - first:
+      213: -6001614454312439533
+    second: VolumeSetting_60
+  - first:
+      213: 5560414643391231779
+    second: VolumeSetting_61
+  - first:
+      213: 6292969998283122531
+    second: VolumeSetting_62
+  - first:
+      213: -993180640023338613
+    second: VolumeSetting_63
+  - first:
+      213: 7054743806526463543
+    second: VolumeSetting_64
+  - first:
+      213: -8075147462897231932
+    second: VolumeSetting_65
+  - first:
+      213: 7944933347978662051
+    second: VolumeSetting_66
+  - first:
+      213: 35504361806211877
+    second: VolumeSetting_67
+  - first:
+      213: 3231006377142030692
+    second: VolumeSetting_68
+  - first:
+      213: 3079505153950571077
+    second: VolumeSetting_69
+  - first:
+      213: -1115762936890250796
+    second: VolumeSetting_70
+  - first:
+      213: -8524852043558692206
+    second: VolumeSetting_71
+  - first:
+      213: -2121806649994122704
+    second: VolumeSetting_72
+  - first:
+      213: 1004640804985418693
+    second: VolumeSetting_73
+  - first:
+      213: -7216202684550542298
+    second: VolumeSetting_74
+  - first:
+      213: 5923270265958489387
+    second: VolumeSetting_75
+  - first:
+      213: -3548391460866880819
+    second: VolumeSetting_76
+  - first:
+      213: -3087028713487885347
+    second: VolumeSetting_77
+  - first:
+      213: 4219986517110445401
+    second: VolumeSetting_78
+  - first:
+      213: 6601477333426598981
+    second: VolumeSetting_79
+  - first:
+      213: 1234242273425936673
+    second: VolumeSetting_80
+  - first:
+      213: 6897675712570407592
+    second: VolumeSetting_81
+  - first:
+      213: -7349349191086340852
+    second: VolumeSetting_82
+  - first:
+      213: 6382053968475959535
+    second: VolumeSetting_83
+  - first:
+      213: 7363377344103854230
+    second: VolumeSetting_84
+  - first:
+      213: 8190427430064032358
+    second: VolumeSetting_85
+  - first:
+      213: -4361763986681006329
+    second: VolumeSetting_86
+  - first:
+      213: 8155154164128474504
+    second: VolumeSetting_87
+  - first:
+      213: 647631909595671593
+    second: VolumeSetting_88
+  - first:
+      213: 2699162399682544007
+    second: VolumeSetting_89
+  - first:
+      213: -6888636532576660702
+    second: VolumeSetting_90
+  - first:
+      213: -2286459496277199158
+    second: VolumeSetting_91
+  - first:
+      213: -3944480116900467208
+    second: VolumeSetting_92
+  - first:
+      213: 9175476416727715659
+    second: VolumeSetting_93
+  - first:
+      213: -8706365186819740559
+    second: VolumeSetting_94
+  - first:
+      213: -7381853750502665951
+    second: VolumeSetting_95
+  - first:
+      213: -981715965170347595
+    second: VolumeSetting_96
+  - first:
+      213: -3870356504101660205
+    second: VolumeSetting_97
+  - first:
+      213: -246452604014691610
+    second: VolumeSetting_98
+  - first:
+      213: 5768565885556890626
+    second: VolumeSetting_99
+  - first:
+      213: 635931702490204463
+    second: VolumeSetting_100
+  - first:
+      213: 2040976840694830348
+    second: VolumeSetting_101
+  - first:
+      213: -8306571554119096920
+    second: VolumeSetting_102
+  - first:
+      213: -4602572040068727299
+    second: VolumeSetting_103
+  - first:
+      213: -5288715480148169736
+    second: VolumeSetting_104
+  - first:
+      213: -1219885121601499958
+    second: VolumeSetting_105
+  - first:
+      213: -6509533061579645458
+    second: VolumeSetting_106
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VolumeSetting_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2071
+        width: 1132
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed91f2f85f3c85050800000000000000
+      internalID: 5789592780421405150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_12
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 2064
+        width: 213
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbeb8c2847fced90800000000000000
+      internalID: -7067001825894077514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_16
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 2093
+        width: 1019
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae9ddd30fe6fb6c0800000000000000
+      internalID: -4125456755538944339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_25
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 2093
+        width: 49
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb5a35b5b5eb93c0800000000000000
+      internalID: -4351632046331110456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1845
+        width: 899
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6446b2ba1f600ce00800000000000000
+      internalID: 1062857147088069702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_43
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1772
+        width: 2301
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08295e478aa226130800000000000000
+      internalID: 3558453558580187776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_52
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1594
+        width: 2067
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce73f26ff73a2480800000000000000
+      internalID: -8923258141664903482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_61
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1417
+        width: 1834
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327f63768af8a2d40800000000000000
+      internalID: 5560414643391231779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_69
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1240
+        width: 1597
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a55312f999cba20800000000000000
+      internalID: 3079505153950571077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_76
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1062
+        width: 1361
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca000b34c491cec0800000000000000
+      internalID: -3548391460866880819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_82
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 885
+        width: 1120
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c058ef669ddd10a90800000000000000
+      internalID: -7349349191086340852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_87
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 709
+        width: 887
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885ec61218dec2170800000000000000
+      internalID: 8155154164128474504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_91
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 530
+        width: 648
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6341bc33dd440e0800000000000000
+      internalID: -2286459496277199158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_94
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 352
+        width: 411
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c28caadf6cc2780800000000000000
+      internalID: -8706365186819740559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_96
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 175
+        width: 178
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b111b1f78e3062f0800000000000000
+      internalID: -981715965170347595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeSetting_97
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 0
+        width: 2305
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9d5eaf34bb94ac0800000000000000
+      internalID: -3870356504101660205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 51f8faf4ad49ddb4089195f7a0b5d926
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
