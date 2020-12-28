@@ -24,7 +24,6 @@ public class DialoguesAndSounds : MonoBehaviour
     public string GetPhrase(InteractionCode code)
     {
 	    dialogues.TryGetValue(code, out var phrase);
-        FindObjectOfType<GameController>().WriteInConsole("Phrase to write is " + phrase);
         return phrase;
     }
 

@@ -17,17 +17,8 @@ public class GameController : MonoBehaviour
     private LevLoad levLoad;
     private MenuController menuController;
     private Scenario3Controller scenario3Controller;
-    /**
-     * This will be used when something is selected from the controller.
-     * It's a boolean that has the function to block the transform of the controller
-     * when it is true. It will be true upon a selection and for 0.5 seconds after that.
-     */
-    private bool somethingWasSelected;
-    private Vector3 blockedPosition;
-    private Quaternion blockedRotation;
-    private GameObject rightController;
-    
-    
+
+
     private void Start()
     {
         dataContainer = DataContainer.GetInstance();
@@ -86,16 +77,13 @@ public class GameController : MonoBehaviour
             scenario3Controller = FindObjectOfType<Scenario3Controller>();
             avatarController.Talk(InteractionCode.SCENARIO3_START_LV2);
         }
-
-        somethingWasSelected = false;
-        rightController = GameObject.FindGameObjectWithTag("RIGHTHAND");
+        
     }
     
     public void MenuHandle(MenuInteractionCode code)
     {
         WriteInConsole("Handling MenuInteractionCode " + code);
-        WriteInConsole("something was selected is  " + somethingWasSelected);
-        
+
         menuController.Handle(code);
         avatarController.Talk(code);
         switch (code)
@@ -143,8 +131,6 @@ public class GameController : MonoBehaviour
                 break;
         }
 
-        StartCoroutine(ReactivateInput());
-
     }
 
     public void Handle(InteractionCode code)
@@ -189,14 +175,13 @@ public class GameController : MonoBehaviour
                 PositiveFeedback();
                 scenario3Controller.Deactivate(code);
                 break;
-            case InteractionCode.SCENARIO3_PAYMENT_CORRECT:
+            case InteractionCode.SCENARIO3_PAYMENTMODE_CORRECT:
                 PositiveFeedback();
                 scenario3Controller.Deactivate(code);
-                levLoad.LoadLevel(0);
+                //levLoad.LoadLevel(0);
                 break;
             
         }
-        StartCoroutine(ReactivateInput());
     }
 
     private void EndOfActivityFeedback()
@@ -217,24 +202,7 @@ public class GameController : MonoBehaviour
         PlayAudio(AudioName.NEGATIVE_FEEDBACK);
         animator.SetTrigger("wrong");
     }
-
-
-    private IEnumerator ReactivateInput()
-    {
-        yield return new WaitForSeconds(1f);
-        somethingWasSelected = false;
-        WriteInConsole("Reactivated input");
-        yield return null;
-    }
-
-    private void LateUpdate()
-    {
-        if (somethingWasSelected)
-        {
-            rightController.transform.position = blockedPosition;
-            rightController.transform.rotation = blockedRotation;
-        }
-    }
+    
 
 
     public void WriteInConsole(string toWrite)
@@ -248,7 +216,6 @@ public class GameController : MonoBehaviour
 
     private void PlayAudio(AudioName audioName)
     {
-        debugInGameConsole.text += "Feedback volume " + feedbackSource.volume;
         //feedbackSource.PlayOneShot(sounds[(int)audioName]);
         
         
@@ -295,7 +262,7 @@ public enum InteractionCode
     SCENARIO3_LANGUAGE_CORRECT         = 32 ,                     
     SCENARIO3_TICKETTYPE_CORRECT       = 33 ,                         
     SCENARIO3_TICKETNUMBER_CORRECT     = 34 ,                         
-    SCENARIO3_PAYMENT_CORRECT          = 35 ,                     
+    SCENARIO3_PAYMENTMODE_CORRECT          = 35 ,                     
     SCENARIO3_WRONG                    = 36 ,         
     SCENARIO3_PAYMENT                  = 9999  ,   
     SCENARIO3_CORRECT                  = 9998  ,

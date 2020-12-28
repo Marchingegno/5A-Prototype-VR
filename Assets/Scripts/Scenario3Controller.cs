@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Scenario3Controller : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class Scenario3Controller : MonoBehaviour
     [SerializeField] private GameObject NumeroBiglietti;
     [SerializeField] private GameObject SelezioneLingua;
     [SerializeField] private GameObject ModalitàPagamento;
+    [SerializeField] private GameObject SchermataMonete;
+    [SerializeField] private Text ProcederePagamento;
     
     // Start is called before the first frame update
     void Start()
@@ -15,6 +18,7 @@ public class Scenario3Controller : MonoBehaviour
         NumeroBiglietti.SetActive(false);
         SelezioneLingua.SetActive(true);
         ModalitàPagamento.SetActive(false);
+        SchermataMonete.SetActive(false);
         
     }
 
@@ -41,9 +45,10 @@ public class Scenario3Controller : MonoBehaviour
                 NumeroBiglietti.SetActive(false);
                 ModalitàPagamento.SetActive(true);
                 break;
-            case InteractionCode.SCENARIO3_PAYMENT_CORRECT:
+            case InteractionCode.SCENARIO3_PAYMENTMODE_CORRECT:
                 ModalitàPagamento.SetActive(false);
-                //TODO Add payment
+                SchermataMonete.SetActive(true);
+                FindObjectOfType<MoneteController>().Initialize();
                 break;
 
         }
@@ -51,9 +56,14 @@ public class Scenario3Controller : MonoBehaviour
         yield return null;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UpdateValue(int currentMoney)
     {
-        
+        ProcederePagamento.text = "Importo corrente: " + (int) (currentMoney / 100) + "." + (int) (currentMoney % 100);
+
+        if (currentMoney >= 200)
+        {
+            FindObjectOfType<MoneteController>().gameObject.SetActive(false);
+            FindObjectOfType<LevLoad>().LoadLevel(0);
+        }
     }
 }

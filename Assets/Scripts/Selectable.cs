@@ -20,6 +20,11 @@ public class Selectable : MonoBehaviour
         FindObjectOfType<GameController>().MenuHandle((MenuInteractionCode) code);
     }
 
+    public void OnSelectThisMoney(int value)
+    {
+        FindObjectOfType<MoneteController>().InsertMoney(value);
+        gameObject.SetActive(false);
+    }
 
 }
 /*
