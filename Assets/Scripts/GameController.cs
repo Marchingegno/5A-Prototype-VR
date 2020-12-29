@@ -24,7 +24,7 @@ public class GameController : MonoBehaviour
         dataContainer = DataContainer.GetInstance();
         levLoad = FindObjectOfType<LevLoad>();
         int currentScene = SceneManager.GetActiveScene().buildIndex;
-        
+        VolumeController.GetInstance().OnSceneChange();
 
         //If main menu
         if (currentScene == 0)
@@ -285,7 +285,7 @@ public enum MenuInteractionCode
     INIZIAMO = 02,
     HOME = 01,
     IMPOSTAZIONI = 03,
-
+    VOLUME = 04,
 }
 
 public enum AudioName

@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 4771517531208433013}
   m_Layer: 0
   m_Name: DialoguesSource
-  m_TagString: Untagged
+  m_TagString: DialoguesSource
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -369,8 +369,8 @@ GameObject:
   - component: {fileID: 3864131665312198572}
   - component: {fileID: 7275395434809044224}
   m_Layer: 0
-  m_Name: FeedbackSource
-  m_TagString: Untagged
+  m_Name: GameSoundsSource
+  m_TagString: GameSoundsSource
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -401,13 +401,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.06
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 172
+  Priority: 177
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

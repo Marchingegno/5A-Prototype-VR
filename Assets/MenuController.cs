@@ -12,13 +12,11 @@ public class MenuController : MonoBehaviour
 
     private void Start()
     {
-        /*
+        
         SchermataBenvenuto.SetActive(false);
         SchermataLivelli.SetActive(false);
         SchermataVolume.SetActive(false);
 
-        SchermataBenvenuto.SetActive(true);
-        
         if (DataContainer.GetInstance().IsFirstStart())
         {
             SchermataBenvenuto.SetActive(true);
@@ -27,7 +25,7 @@ public class MenuController : MonoBehaviour
         else
         {
             SchermataLivelli.SetActive(true);
-        }*/
+        }
     }
 
     public void Handle(MenuInteractionCode code)
@@ -43,9 +41,19 @@ public class MenuController : MonoBehaviour
             case MenuInteractionCode.INIZIAMO:
                 Iniziamo();
                 break;
+            case MenuInteractionCode.VOLUME:
+                Volume();
+                break;
+            
         }
         
         
+    }
+
+    private void Volume()
+    {
+        SchermataBenvenuto.SetActive(false);
+        SchermataVolume.SetActive(true);
     }
 
     public void Iniziamo()
