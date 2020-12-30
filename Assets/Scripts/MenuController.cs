@@ -60,6 +60,7 @@ public class MenuController : MonoBehaviour
     {
         SchermataBenvenuto.SetActive(false);
         SchermataLivelli.SetActive(true);
+        FindObjectOfType<GameController>().WriteInConsole("End of iniziamo");
     }
 
     public void Home()

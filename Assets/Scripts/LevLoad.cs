@@ -31,8 +31,8 @@ public class LevLoad : MonoBehaviour
         
         yield return new WaitForSeconds(2f);
         //change scene
-        //SceneManager.LoadScene(levelIndex);
         Application.LoadLevel(levelIndex);
+        SceneManager.LoadScene(levelIndex);
     }
     
 }
