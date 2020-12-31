@@ -26,6 +26,16 @@ public class Selectable : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    public void OnSelectThisMainVolume(int amount)
+    {
+        FindObjectOfType<VolumeController>().SetMainVolume(amount);
+    }
+
+    public void OnSelectThisGameSounds(int amount)
+    {
+        FindObjectOfType<VolumeController>().SetGameSoundsVolume(amount);
+    }
+
 }
 /*
 public enum InteractionCode

@@ -9,6 +9,9 @@ TagManager:
   - RIGHTHAND
   - DialoguesSource
   - GameSoundsSource
+  - GameSounds
+  - MainVolume
+  - VolumeController
   layers:
   - Default
   - TransparentFX

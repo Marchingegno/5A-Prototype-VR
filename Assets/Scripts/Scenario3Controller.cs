@@ -22,12 +22,12 @@ public class Scenario3Controller : MonoBehaviour
         
     }
 
-    public void Deactivate(InteractionCode code)
+    public void HandleMachineInterface(InteractionCode code)
     {
-        StartCoroutine(WaitAndDeactivate(code));
+        StartCoroutine(WaitAndSwap(code));
     }
 
-    private IEnumerator WaitAndDeactivate(InteractionCode code)
+    private IEnumerator WaitAndSwap(InteractionCode code)
     {
         yield return new WaitForSeconds(0.5f);
         

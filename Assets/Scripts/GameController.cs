@@ -84,7 +84,7 @@ public class GameController : MonoBehaviour
     {
         WriteInConsole("Handling MenuInteractionCode " + code);
 
-        menuController.Handle(code);
+        menuController.MenuHandle(code);
         avatarController.Talk(code);
         switch (code)
         {
@@ -165,19 +165,19 @@ public class GameController : MonoBehaviour
                 break;
             case InteractionCode.SCENARIO3_LANGUAGE_CORRECT:
                 PositiveFeedback();
-                scenario3Controller.Deactivate(code);
+                scenario3Controller.HandleMachineInterface(code);
                 break;
             case InteractionCode.SCENARIO3_TICKETTYPE_CORRECT:
                 PositiveFeedback();
-                scenario3Controller.Deactivate(code);
+                scenario3Controller.HandleMachineInterface(code);
                 break;
             case InteractionCode.SCENARIO3_TICKETNUMBER_CORRECT:
                 PositiveFeedback();
-                scenario3Controller.Deactivate(code);
+                scenario3Controller.HandleMachineInterface(code);
                 break;
             case InteractionCode.SCENARIO3_PAYMENTMODE_CORRECT:
                 PositiveFeedback();
-                scenario3Controller.Deactivate(code);
+                scenario3Controller.HandleMachineInterface(code);
                 //levLoad.LoadLevel(0);
                 break;
             

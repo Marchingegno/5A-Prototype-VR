@@ -28,7 +28,7 @@ public class MenuController : MonoBehaviour
         }
     }
 
-    public void Handle(MenuInteractionCode code)
+    public void MenuHandle(MenuInteractionCode code)
     {
         switch (code)
         {
@@ -56,21 +56,21 @@ public class MenuController : MonoBehaviour
         SchermataVolume.SetActive(true);
     }
 
-    public void Iniziamo()
+    private void Iniziamo()
     {
         SchermataBenvenuto.SetActive(false);
         SchermataLivelli.SetActive(true);
         FindObjectOfType<GameController>().WriteInConsole("End of iniziamo");
     }
 
-    public void Home()
+    private void Home()
     {
         SchermataBenvenuto.SetActive(true);
         SchermataLivelli.SetActive(false);
         SchermataVolume.SetActive(false);
     }
 
-    public void Impostazioni()
+    private void Impostazioni()
     {
         SchermataBenvenuto.SetActive(false);
         SchermataVolume.SetActive(true);

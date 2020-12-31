@@ -30,7 +30,7 @@ public class AvatarController : MonoBehaviour
 	{
 		string textToDisplay = dialoguesAndSounds.GetPhrase(code);
 		StartCoroutine(PlayAudio(dialoguesAndSounds.GetAudio(code)));
-		
+		if (string.IsNullOrEmpty(textToDisplay)) return;
 		avatarText.text = " " + textToDisplay;
 	}
 
