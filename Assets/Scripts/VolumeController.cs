@@ -53,14 +53,17 @@ public class VolumeController : MonoBehaviour
     {
         gameSoundsSource = GameObject.FindGameObjectWithTag("GameSoundsSource").GetComponent<AudioSource>();
         dialoguesSource = GameObject.FindGameObjectWithTag("DialoguesSource").GetComponent<AudioSource>();
-
         dialoguesSource.volume = mainVolumeAmount;
         gameSoundsSource.volume = mainVolumeAmount * gameSoundsVolumeAmount;
-
+        FindObjectOfType<GameController>().WriteInConsole("Changed volume of sources");
+        /*
+         * Here the code crashes. not sure if it goes into this if
+         */
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
             mainVolume = GameObject.FindWithTag("MainVolume");
             gameSoundsVolume = GameObject.FindWithTag("GameSoundsVolume");
+            FindObjectOfType<GameController>().WriteInConsole("Found schermata volume");
             UpdateInterface();
         }
         
@@ -100,26 +103,25 @@ public class VolumeController : MonoBehaviour
 
     private void UpdateInterface()
     {
+        FindObjectOfType<GameController>().WriteInConsole("Start UpdateInterface");
         var mainVolumeSprites = mainVolume.GetComponentsInChildren<SpriteRenderer>();
         var gameSoundsSprites = gameSoundsVolume.GetComponentsInChildren<SpriteRenderer>();
+        FindObjectOfType<GameController>().WriteInConsole("Found volume sprites arrays");
+        /*
+         * Disable only blue sprites (the first 10)
+         */
+        for (var i = 0; i < 10; i++)
+        {
+            mainVolumeSprites[i].enabled = false;
+            gameSoundsSprites[i].enabled = false;
+        }
+        FindObjectOfType<GameController>().WriteInConsole("Disabled sprites");
         
-        foreach (var mainVolumeSprite in mainVolumeSprites)
-        {
-            mainVolumeSprite.enabled = false;
-        }
-
-        foreach (var gameSoundsSprite in gameSoundsSprites)
-        {
-            gameSoundsSprite.enabled = false;
-        }
         
         mainVolumeSprites[mainVolumeAmount].enabled = true;
         gameSoundsSprites[gameSoundsVolumeAmount].enabled = true;
 
-
-
-
-
+        FindObjectOfType<GameController>().WriteInConsole("Enabled right sprites");
     }
     
 }

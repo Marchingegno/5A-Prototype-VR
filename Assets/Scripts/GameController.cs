@@ -25,7 +25,6 @@ public class GameController : MonoBehaviour
         levLoad = FindObjectOfType<LevLoad>();
         int currentScene = SceneManager.GetActiveScene().buildIndex;
         VolumeController.GetInstance().OnSceneChange();
-
         //If main menu
         if (currentScene == 0)
         {
@@ -83,7 +82,7 @@ public class GameController : MonoBehaviour
     public void MenuHandle(MenuInteractionCode code)
     {
         WriteInConsole("Handling MenuInteractionCode " + code);
-
+        WriteInConsole(menuController.name);
         menuController.MenuHandle(code);
         avatarController.Talk(code);
         switch (code)
@@ -190,7 +189,7 @@ public class GameController : MonoBehaviour
         animator.SetTrigger("correct");
         levLoad.LoadLevel(0);
     }
-    private void PositiveFeedback()
+    public void PositiveFeedback()
     {
         PlayAudio(AudioName.POSITIVE_FEEDBACK);
         animator.SetTrigger("select");
