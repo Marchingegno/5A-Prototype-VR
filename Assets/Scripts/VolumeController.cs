@@ -76,6 +76,7 @@ public class VolumeController : MonoBehaviour
 
         dialoguesSource.volume = (float)mainVolumeAmount / 10;
         gameSoundsSource.volume = (float)(mainVolumeAmount * gameSoundsVolumeAmount) / 100;
+        Feedback();
         UpdateInterface();
     }
 
@@ -87,7 +88,14 @@ public class VolumeController : MonoBehaviour
 
         dialoguesSource.volume = (float)mainVolumeAmount / 10;
         gameSoundsSource.volume = (float)(mainVolumeAmount * gameSoundsVolumeAmount) / 100;
+        Feedback();
         UpdateInterface();
+    }
+
+
+    private void Feedback()
+    {
+        FindObjectOfType<GameController>().PositiveFeedback();
     }
 
     private void UpdateInterface()

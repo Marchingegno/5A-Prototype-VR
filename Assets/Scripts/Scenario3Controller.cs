@@ -9,6 +9,9 @@ public class Scenario3Controller : MonoBehaviour
     [SerializeField] private GameObject SelezioneLingua;
     [SerializeField] private GameObject ModalitàPagamento;
     [SerializeField] private GameObject SchermataMonete;
+    [SerializeField] private GameObject StampaInCorso;
+    [SerializeField] private GameObject RitirareBiglietto;
+    [SerializeField] private GameObject CompletarePagamento;
     [SerializeField] private Text ProcederePagamento;
     
     // Start is called before the first frame update

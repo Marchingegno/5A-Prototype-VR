@@ -16,7 +16,7 @@ public class MenuController : MonoBehaviour
         SchermataBenvenuto.SetActive(false);
         SchermataLivelli.SetActive(false);
         SchermataVolume.SetActive(false);
-
+        FindObjectOfType<GameController>().WriteInConsole("MenuSTART");
         if (DataContainer.GetInstance().IsFirstStart())
         {
             SchermataBenvenuto.SetActive(true);
@@ -30,6 +30,7 @@ public class MenuController : MonoBehaviour
 
     public void MenuHandle(MenuInteractionCode code)
     {
+        FindObjectOfType<GameController>().WriteInConsole("Start menu handle");
         switch (code)
         {
             case MenuInteractionCode.HOME:
@@ -58,6 +59,7 @@ public class MenuController : MonoBehaviour
 
     private void Iniziamo()
     {
+        FindObjectOfType<GameController>().WriteInConsole("Start of iniziamo");
         SchermataBenvenuto.SetActive(false);
         SchermataLivelli.SetActive(true);
         FindObjectOfType<GameController>().WriteInConsole("End of iniziamo");
