@@ -577,6 +577,11 @@ PrefabInstance:
       propertyPath: m_Volume
       value: 0.29
       objectReference: {fileID: 0}
+    - target: {fileID: 9157876574060972804, guid: 4b81cf043b905994fab8ac70ec0b4c9b,
+        type: 3}
+      propertyPath: m_TrackingOriginMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9157876574060972805, guid: 4b81cf043b905994fab8ac70ec0b4c9b,
         type: 3}
       propertyPath: m_LocalRotation.x

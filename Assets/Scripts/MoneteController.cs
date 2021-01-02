@@ -29,7 +29,7 @@ public class MoneteController : MonoBehaviour
     {
 
         insertedMoney += value; 
-        
+        FindObjectOfType<GameController>().PlayAudio(AudioName.COIN_INSERT_SOUND);
         FindObjectOfType<Scenario3Controller>().UpdateValue(insertedMoney);
     }
     

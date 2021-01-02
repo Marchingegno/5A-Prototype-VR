@@ -15,6 +15,8 @@ public class MenuController : MonoBehaviour
         
         SchermataBenvenuto.SetActive(false);
         SchermataLivelli.SetActive(false);
+        VolumeController.GetInstance().SetSchermate(GameObject.FindWithTag("MainVolume"), GameObject.FindWithTag("GameSoundsScreen"));
+        VolumeController.GetInstance().UpdateInterface();
         SchermataVolume.SetActive(false);
         if (DataContainer.GetInstance().IsFirstStart())
         {

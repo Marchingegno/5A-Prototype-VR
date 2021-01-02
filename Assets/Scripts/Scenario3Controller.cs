@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Scenario3Controller : MonoBehaviour
@@ -12,16 +13,26 @@ public class Scenario3Controller : MonoBehaviour
     [SerializeField] private GameObject StampaInCorso;
     [SerializeField] private GameObject RitirareBiglietto;
     [SerializeField] private GameObject CompletarePagamento;
-    [SerializeField] private Text ProcederePagamento;
+    [SerializeField] private GameObject ImportoIntrodotto;
+
+    private SpriteRenderer[] importi;
     
     // Start is called before the first frame update
     void Start()
     {
+        importi = new SpriteRenderer[11];
         TipologiaBiglietto.SetActive(false);
         NumeroBiglietti.SetActive(false);
         SelezioneLingua.SetActive(true);
         ModalitàPagamento.SetActive(false);
         SchermataMonete.SetActive(false);
+        StampaInCorso.SetActive(false);
+        RitirareBiglietto.SetActive(false);
+        //Get various sprites of ImportoIntrodotto
+        importi = ImportoIntrodotto.GetComponentsInChildren<SpriteRenderer>();
+        FindObjectOfType<GameController>().WriteInConsole("importi has length " + importi.Length.ToString());
+        CompletarePagamento.SetActive(false);
+        ImportoIntrodotto.SetActive(false);
         
     }
 
@@ -51,9 +62,22 @@ public class Scenario3Controller : MonoBehaviour
             case InteractionCode.SCENARIO3_PAYMENTMODE_CORRECT:
                 ModalitàPagamento.SetActive(false);
                 SchermataMonete.SetActive(true);
+                CompletarePagamento.SetActive(true);
+                ImportoIntrodotto.SetActive(true);
                 FindObjectOfType<MoneteController>().Initialize();
                 break;
-
+            case InteractionCode.SCENARIO3_PAYMENTCOMPLETE:
+                SchermataMonete.SetActive(false);
+                CompletarePagamento.SetActive(false);
+                ImportoIntrodotto.SetActive(false);
+                StampaInCorso.SetActive(true);
+                yield return new WaitForSeconds(5f);
+                FindObjectOfType<GameController>().Handle(
+                    SceneManager.GetActiveScene().buildIndex == 7 ? InteractionCode.SCENARIO3_CORRECT : InteractionCode.SCENARIO3_LASTCORRECT);
+                StampaInCorso.SetActive(false);
+                RitirareBiglietto.SetActive(true);
+                break;
+                
         }
 
         yield return null;
@@ -61,12 +85,19 @@ public class Scenario3Controller : MonoBehaviour
 
     public void UpdateValue(int currentMoney)
     {
-        ProcederePagamento.text = "Importo corrente: " + (int) (currentMoney / 100) + "." + (int) (currentMoney % 100);
 
-        if (currentMoney >= 200)
+        importi[currentMoney / 50].enabled = true;
+
+        if (currentMoney == 200)
         {
-            FindObjectOfType<MoneteController>().gameObject.SetActive(false);
-            FindObjectOfType<LevLoad>().LoadLevel(0);
+            FindObjectOfType<GameController>().Handle(InteractionCode.SCENARIO3_PAYMENTCOMPLETE);
+            
+        }
+        else if (currentMoney > 200)
+        {
+            FindObjectOfType<AvatarController>().Talk(InteractionCode.SCENARIO3_PAYMENTCOMPLETE_CHANGE);
+            FindObjectOfType<GameController>().Handle(InteractionCode.SCENARIO3_PAYMENTCOMPLETE);
+
         }
     }
 }

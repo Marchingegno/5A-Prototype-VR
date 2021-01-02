@@ -28,6 +28,7 @@ public class GameController : MonoBehaviour
         //If main menu
         if (currentScene == 0)
         {
+            PlayAudio(AudioName.MENU_IDLE_SOUND);
             menuController = FindObjectOfType<MenuController>();
             avatarController.Talk(MenuInteractionCode.START);
         }
@@ -47,8 +48,8 @@ public class GameController : MonoBehaviour
         if (currentScene == 3)
         {
             //Play ambient sound
+            PlayAudio(AudioName.CROWD_AMBIENT);
             PlayAudio(AudioName.ROAD_AMBIENT);
-            PlayAudio(AudioName.METRO_AMBIENT);
         }
         
         
@@ -58,7 +59,7 @@ public class GameController : MonoBehaviour
             avatarController.Talk(InteractionCode.SCENARIO2_START);
         }
 
-        if (currentScene >= 5 && currentScene <= 6)
+        if (currentScene == 6)
         {
             //Play sounds here
             PlayAudio(AudioName.METRO_AMBIENT);
@@ -177,7 +178,13 @@ public class GameController : MonoBehaviour
             case InteractionCode.SCENARIO3_PAYMENTMODE_CORRECT:
                 PositiveFeedback();
                 scenario3Controller.HandleMachineInterface(code);
-                //levLoad.LoadLevel(0);
+                break;
+            case InteractionCode.SCENARIO3_PAYMENTCOMPLETE:
+                PositiveFeedback();
+                scenario3Controller.HandleMachineInterface(code);
+                break;
+            case InteractionCode.SCENARIO3_CORRECT:
+                EndOfActivityFeedback();
                 break;
             
         }
@@ -213,7 +220,7 @@ public class GameController : MonoBehaviour
         
     }
 
-    private void PlayAudio(AudioName audioName)
+    public void PlayAudio(AudioName audioName)
     {
         //feedbackSource.PlayOneShot(sounds[(int)audioName]);
         
@@ -232,11 +239,20 @@ public class GameController : MonoBehaviour
             case AudioName.METRO_AMBIENT:
                 feedbackSource.PlayOneShot(sounds[3]);
                 break;
+            case AudioName.ROAD_AMBIENT:
+                feedbackSource.PlayOneShot(sounds[6]);
+                break;
             case AudioName.CROWD_AMBIENT:
                 feedbackSource.PlayOneShot(sounds[4]);
                 break;
             case AudioName.END_OF_EXPERIENCE_FEEDBACK:
                 feedbackSource.PlayOneShot(sounds[5]);
+                break;
+            case AudioName.COIN_INSERT_SOUND:
+                feedbackSource.PlayOneShot(sounds[7]);
+                break;
+            case AudioName.MENU_IDLE_SOUND:
+                feedbackSource.PlayOneShot(sounds[8]);
                 break;
         }
         
@@ -265,7 +281,9 @@ public enum InteractionCode
     SCENARIO3_WRONG                    = 36 ,         
     SCENARIO3_PAYMENT                  = 9999  ,   
     SCENARIO3_CORRECT                  = 9998  ,
-    SCENARIO3_LASTCORRECT              = 37 ,                 
+    SCENARIO3_LASTCORRECT              = 37 ,
+    SCENARIO3_PAYMENTCOMPLETE          = 38 ,
+    SCENARIO3_PAYMENTCOMPLETE_CHANGE   = 39 ,
 }
 
 
@@ -294,7 +312,8 @@ public enum AudioName
     NEW_TASK,
     METRO_AMBIENT,
     CROWD_AMBIENT,
-    END_OF_EXPERIENCE_FEEDBACK,
     ROAD_AMBIENT,
-
+    END_OF_EXPERIENCE_FEEDBACK,
+    COIN_INSERT_SOUND,
+    MENU_IDLE_SOUND,
 }

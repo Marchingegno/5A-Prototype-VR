@@ -12,6 +12,7 @@ TagManager:
   - MainVolume
   - VolumeController
   - GameSoundsVolume
+  - GameSoundsScreen
   layers:
   - Default
   - TransparentFX

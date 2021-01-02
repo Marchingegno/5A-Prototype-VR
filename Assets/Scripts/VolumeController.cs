@@ -27,7 +27,13 @@ public class VolumeController : MonoBehaviour
      */
     private GameObject mainVolume;
     private GameObject gameSoundsVolume;
-    
+
+
+    public void SetSchermate(GameObject mainVolume_, GameObject gameSoundsVolume_)
+    {
+        mainVolume = mainVolume_;
+        gameSoundsVolume = gameSoundsVolume_;
+    }
     void Start()
     {
         if (instance == null)
@@ -36,7 +42,6 @@ public class VolumeController : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             mainVolumeAmount = 5;
             gameSoundsVolumeAmount = 5;
-            UpdateInterface();
         }
         else
         {
@@ -49,36 +54,23 @@ public class VolumeController : MonoBehaviour
         return instance;
     }
 
+    private void ChangeVolume()
+    {
+        dialoguesSource.volume = (float)mainVolumeAmount / 10;
+        gameSoundsSource.volume = (float)(mainVolumeAmount * gameSoundsVolumeAmount) / 100;
+    }
+
     public void OnSceneChange()
     {
         gameSoundsSource = GameObject.FindGameObjectWithTag("GameSoundsSource").GetComponent<AudioSource>();
         dialoguesSource = GameObject.FindGameObjectWithTag("DialoguesSource").GetComponent<AudioSource>();
-        dialoguesSource.volume = mainVolumeAmount;
-        gameSoundsSource.volume = mainVolumeAmount * gameSoundsVolumeAmount;
-        FindObjectOfType<GameController>().WriteInConsole("Changed volume of sources");
-        /*
-         * Here the code crashes. not sure if it goes into this if
-         */
-        if (SceneManager.GetActiveScene().buildIndex == 0)
-        {
-            mainVolume = GameObject.FindWithTag("MainVolume");
-            gameSoundsVolume = GameObject.FindWithTag("GameSoundsVolume");
-            FindObjectOfType<GameController>().WriteInConsole("Found schermata volume");
-            UpdateInterface();
-        }
-        
-        
-
+        ChangeVolume();
     }
 
     public void SetMainVolume(int amount)
     {
         mainVolumeAmount = amount;
-        gameSoundsSource = GameObject.FindGameObjectWithTag("GameSoundsSource").GetComponent<AudioSource>();
-        dialoguesSource = GameObject.FindGameObjectWithTag("DialoguesSource").GetComponent<AudioSource>();
-
-        dialoguesSource.volume = (float)mainVolumeAmount / 10;
-        gameSoundsSource.volume = (float)(mainVolumeAmount * gameSoundsVolumeAmount) / 100;
+        ChangeVolume();
         Feedback();
         UpdateInterface();
     }
@@ -86,11 +78,7 @@ public class VolumeController : MonoBehaviour
     public void SetGameSoundsVolume(int amount)
     {
         gameSoundsVolumeAmount = amount;
-        gameSoundsSource = GameObject.FindGameObjectWithTag("GameSoundsSource").GetComponent<AudioSource>();
-        dialoguesSource = GameObject.FindGameObjectWithTag("DialoguesSource").GetComponent<AudioSource>();
-
-        dialoguesSource.volume = (float)mainVolumeAmount / 10;
-        gameSoundsSource.volume = (float)(mainVolumeAmount * gameSoundsVolumeAmount) / 100;
+        ChangeVolume();
         Feedback();
         UpdateInterface();
     }
@@ -101,27 +89,33 @@ public class VolumeController : MonoBehaviour
         FindObjectOfType<GameController>().PositiveFeedback();
     }
 
-    private void UpdateInterface()
+    public void UpdateInterface()
     {
         FindObjectOfType<GameController>().WriteInConsole("Start UpdateInterface");
-        var mainVolumeSprites = mainVolume.GetComponentsInChildren<SpriteRenderer>();
+        
+        /*SpriteRenderer[] mainVolumeSprites = mainVolume.GetComponentsInChildren<SpriteRenderer>();
+        FindObjectOfType<GameController>().WriteInConsole("Found volume sprites array 1");
         var gameSoundsSprites = gameSoundsVolume.GetComponentsInChildren<SpriteRenderer>();
-        FindObjectOfType<GameController>().WriteInConsole("Found volume sprites arrays");
+        FindObjectOfType<GameController>().WriteInConsole("Found volume sprites array 2");
+        */
+        
         /*
          * Disable only blue sprites (the first 10)
          */
+        SpriteRenderer[] mainVolumeSprites = new SpriteRenderer[10];
+        SpriteRenderer[] gameSoundsSprites = new SpriteRenderer[10];
         for (var i = 0; i < 10; i++)
         {
+            mainVolumeSprites[i] = mainVolume.transform.GetChild(i).GetComponent<SpriteRenderer>();
             mainVolumeSprites[i].enabled = false;
+            gameSoundsSprites[i] = gameSoundsVolume.transform.GetChild(i).GetComponent<SpriteRenderer>();
             gameSoundsSprites[i].enabled = false;
         }
-        FindObjectOfType<GameController>().WriteInConsole("Disabled sprites");
         
-        
-        mainVolumeSprites[mainVolumeAmount].enabled = true;
-        gameSoundsSprites[gameSoundsVolumeAmount].enabled = true;
-
-        FindObjectOfType<GameController>().WriteInConsole("Enabled right sprites");
+        FindObjectOfType<GameController>().WriteInConsole(mainVolumeAmount.ToString());
+        mainVolumeSprites[mainVolumeAmount - 1].enabled = true;
+        FindObjectOfType<GameController>().WriteInConsole(gameSoundsVolumeAmount.ToString());
+        gameSoundsSprites[gameSoundsVolumeAmount - 1].enabled = true;
     }
     
 }
