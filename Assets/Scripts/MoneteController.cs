@@ -20,7 +20,7 @@ public class MoneteController : MonoBehaviour
 
         for (int i = 0; i < 4; i++)
         {
-            Instantiate(money[Random.Range(0,2)], gameObject.transform);
+            Instantiate(money[Random.Range(0,3)], gameObject.transform);
         }
 
     }

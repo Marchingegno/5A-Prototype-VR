@@ -10,7 +10,11 @@ public class GameController : MonoBehaviour
 {
     [FormerlySerializedAs("overlayText")] public Text debugInGameConsole;
     [SerializeField] private AvatarController avatarController;
+    /*
+     * There is another array for audioclip because for some reason unity breaks if sounds is larger than 7
+     */
     [SerializeField] private AudioClip[] sounds;
+    [SerializeField] private AudioClip[] soundsCopy;
     [FormerlySerializedAs("source")] [SerializeField] private AudioSource feedbackSource;
     [SerializeField] private Animator animator;
     private DataContainer dataContainer;
@@ -25,9 +29,18 @@ public class GameController : MonoBehaviour
         levLoad = FindObjectOfType<LevLoad>();
         int currentScene = SceneManager.GetActiveScene().buildIndex;
         VolumeController.GetInstance().OnSceneChange();
-        //If main menu
+       
+        foreach (var audioClip in sounds)
+        {
+            WriteInConsole(audioClip.name);
+        }
+        foreach (var audioClip in soundsCopy)
+        {
+            WriteInConsole(audioClip.name);
+        }
         if (currentScene == 0)
         {
+            //If main menu
             PlayAudio(AudioName.MENU_IDLE_SOUND);
             menuController = FindObjectOfType<MenuController>();
             avatarController.Talk(MenuInteractionCode.START);
@@ -243,16 +256,16 @@ public class GameController : MonoBehaviour
                 feedbackSource.PlayOneShot(sounds[6]);
                 break;
             case AudioName.CROWD_AMBIENT:
-                feedbackSource.PlayOneShot(sounds[4]);
+                feedbackSource.PlayOneShot(sounds[4], 0.5f);
                 break;
             case AudioName.END_OF_EXPERIENCE_FEEDBACK:
                 feedbackSource.PlayOneShot(sounds[5]);
                 break;
             case AudioName.COIN_INSERT_SOUND:
-                feedbackSource.PlayOneShot(sounds[7]);
+                feedbackSource.PlayOneShot(soundsCopy[0]);
                 break;
             case AudioName.MENU_IDLE_SOUND:
-                feedbackSource.PlayOneShot(sounds[8]);
+                feedbackSource.PlayOneShot(soundsCopy[1]);
                 break;
         }
         

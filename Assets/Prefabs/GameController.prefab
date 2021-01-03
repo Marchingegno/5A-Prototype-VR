@@ -50,10 +50,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f8c98e0be948297409293905439a3c3e, type: 3}
   - {fileID: 8300000, guid: 01eb1b7dad915ef46b37fde56e570ad7, type: 3}
   - {fileID: 8300000, guid: 4835c5ac411979f49b429ee19891a67c, type: 3}
-  - {fileID: 8300000, guid: 440a766779a632c4aa4d4c8cd2641ac8, type: 3}
-  - {fileID: 8300000, guid: 89855c90e212920489b42f0a9e7639a0, type: 3}
-  - {fileID: 8300000, guid: d4c35a383f7378a43913764a2b66938c, type: 3}
+  - {fileID: 8300000, guid: 60c3e9973ce93a04cace43bc32007508, type: 3}
   - {fileID: 8300000, guid: 3bb0fa17f96a1aa4a8b65bafc95ad20b, type: 3}
+  - {fileID: 8300000, guid: d4c35a383f7378a43913764a2b66938c, type: 3}
+  - {fileID: 8300000, guid: 2523a891174d4bb4f955aebcdfe7dcb1, type: 3}
+  soundsCopy:
+  - {fileID: 8300000, guid: 0ec04618da9308042808315de55474e5, type: 3}
+  - {fileID: 8300000, guid: 28c57b53e3047ed43b31c0604f9fa523, type: 3}
   feedbackSource: {fileID: 0}
   animator: {fileID: 0}
 --- !u!114 &320817594841632224
