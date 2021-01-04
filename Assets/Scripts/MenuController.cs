@@ -18,8 +18,10 @@ public class MenuController : MonoBehaviour
         VolumeController.GetInstance().SetSchermate(GameObject.FindWithTag("MainVolume"), GameObject.FindWithTag("GameSoundsScreen"));
         VolumeController.GetInstance().UpdateInterface();
         SchermataVolume.SetActive(false);
+        FindObjectOfType<GameController>().WriteInConsole("Is firt start " + DataContainer.GetInstance().IsFirstStart());
         if (DataContainer.GetInstance().IsFirstStart())
         {
+            
             SchermataBenvenuto.SetActive(true);
             DataContainer.GetInstance().SetFirstStart(false);
         }

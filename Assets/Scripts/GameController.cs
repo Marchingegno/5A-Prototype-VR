@@ -188,7 +188,11 @@ public class GameController : MonoBehaviour
                 PositiveFeedback();
                 scenario3Controller.HandleMachineInterface(code);
                 break;
-            case InteractionCode.SCENARIO3_PAYMENTMODE_CORRECT:
+            case InteractionCode.SCENARIO3_PAYMENTMODE_MONEY:
+                PositiveFeedback();
+                scenario3Controller.HandleMachineInterface(code);
+                break;
+            case InteractionCode.SCENARIO3_PAYMENTMODE_CARD:
                 PositiveFeedback();
                 scenario3Controller.HandleMachineInterface(code);
                 break;
@@ -290,13 +294,14 @@ public enum InteractionCode
     SCENARIO3_LANGUAGE_CORRECT         = 32 ,                     
     SCENARIO3_TICKETTYPE_CORRECT       = 33 ,                         
     SCENARIO3_TICKETNUMBER_CORRECT     = 34 ,                         
-    SCENARIO3_PAYMENTMODE_CORRECT          = 35 ,                     
+    SCENARIO3_PAYMENTMODE_MONEY        = 35 ,                     
     SCENARIO3_WRONG                    = 36 ,         
     SCENARIO3_PAYMENT                  = 9999  ,   
     SCENARIO3_CORRECT                  = 9998  ,
     SCENARIO3_LASTCORRECT              = 37 ,
     SCENARIO3_PAYMENTCOMPLETE          = 38 ,
     SCENARIO3_PAYMENTCOMPLETE_CHANGE   = 39 ,
+    SCENARIO3_PAYMENTMODE_CARD         = 352
 }
 
 
