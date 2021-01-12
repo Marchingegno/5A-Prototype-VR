@@ -14,6 +14,7 @@ public class Scenario3Controller : MonoBehaviour
     [SerializeField] private GameObject RitirareBiglietto;
     [SerializeField] private GameObject CompletarePagamento;
     [SerializeField] private GameObject ImportoIntrodotto;
+    [SerializeField] private GameObject IntrodurreLaCarta;
     [SerializeField] private GameObject SchermataCarta;
 
     private SpriteRenderer[] importi;
@@ -32,6 +33,7 @@ public class Scenario3Controller : MonoBehaviour
         StampaInCorso.SetActive(false);
         RitirareBiglietto.SetActive(false);
         SchermataCarta.SetActive(false);
+        IntrodurreLaCarta.SetActive(false);
         //Get various sprites of ImportoIntrodotto
         importi = ImportoIntrodotto.GetComponentsInChildren<SpriteRenderer>();
         FindObjectOfType<GameController>().WriteInConsole("importi has length " + importi.Length.ToString());
@@ -74,12 +76,14 @@ public class Scenario3Controller : MonoBehaviour
                 break;
             case InteractionCode.SCENARIO3_PAYMENTMODE_CARD:
                 ModalitàPagamento.SetActive(false);
+                IntrodurreLaCarta.SetActive(true);
                 //TODO Schermata attesa pagamento con carta
                 SchermataCarta.SetActive(true);
                 break;
             case InteractionCode.SCENARIO3_PAYMENTCOMPLETE:
                 SchermataMonete.SetActive(false);
                 SchermataCarta.SetActive(false);
+                IntrodurreLaCarta.SetActive(false);
                 CompletarePagamento.SetActive(false);
                 ImportoIntrodotto.SetActive(false);
                 StampaInCorso.SetActive(true);

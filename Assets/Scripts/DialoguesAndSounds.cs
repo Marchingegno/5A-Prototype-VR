@@ -74,7 +74,7 @@ public class DialoguesAndSounds : MonoBehaviour
         dialogues.Add(InteractionCode.SCENARIO3_PAYMENT, "Ottimo! Ora devi pagare il biglietto. Costa 2 euro.");
         dialogues.Add(InteractionCode.SCENARIO3_CORRECT, "Bravissimo! Passiamo al prossimo livello.");
         dialogues.Add(InteractionCode.SCENARIO3_PAYMENTCOMPLETE_CHANGE, "Bravo! Nella realtà, ricordati di prendere il resto.");
-        dialogues.Add(InteractionCode.SCENARIO3_LASTCORRECT, "Bravissimo! Se hai completato anche gli altri scenari, sei pronto per l'avventura in realtà aumentata.");
+        dialogues.Add(InteractionCode.SCENARIO3_LASTCORRECT, "Bravissimo! Ora sei pronto per l'avventura in realtà aumentata.");
     }
 
     private void BuildAudioDictionary()

@@ -142,6 +142,12 @@ public class GameController : MonoBehaviour
                 PlayAudio(AudioName.POSITIVE_FEEDBACK);
                 levLoad.LoadLevel(7);
                 break;
+            case MenuInteractionCode.LOAD3_2:
+                animator.SetTrigger("select");
+                PlayAudio(AudioName.POSITIVE_FEEDBACK);
+                levLoad.LoadLevel(8);
+                break;
+
         }
 
     }
@@ -201,6 +207,9 @@ public class GameController : MonoBehaviour
                 scenario3Controller.HandleMachineInterface(code);
                 break;
             case InteractionCode.SCENARIO3_CORRECT:
+                EndOfActivityFeedback();
+                break;
+            case InteractionCode.SCENARIO3_LASTCORRECT:
                 EndOfActivityFeedback();
                 break;
             
