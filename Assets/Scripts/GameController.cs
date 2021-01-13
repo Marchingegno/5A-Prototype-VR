@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections;
+﻿//#define ENABLECONSOLE
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
-using UnityEngine.XR.Interaction.Toolkit;
 
 public class GameController : MonoBehaviour
 {
@@ -25,6 +23,10 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+#if !ENABLECONSOLE
+        debugInGameConsole.text = "";   
+
+#endif
         dataContainer = DataContainer.GetInstance();
         levLoad = FindObjectOfType<LevLoad>();
         int currentScene = SceneManager.GetActiveScene().buildIndex;
@@ -239,10 +241,13 @@ public class GameController : MonoBehaviour
 
     public void WriteInConsole(string toWrite)
     {
+#if ENABLECONSOLE
         if (debugInGameConsole != null)
         {
             debugInGameConsole.text += "\n" + toWrite;
         }
+#endif
+        
         
     }
 
